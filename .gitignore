@@ -1,32 +1,41 @@
-# Prerequisites
-*.d
+# Binary
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+bin/*
+sbin/*
+swapfile
 
-# Precompiled Headers
-*.gch
-*.pch
+# Generated or built from source
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+lib/*
+lib64/*
+/usr/lib/*
+/usr/lib*/*
+/usr/*bin/*
 
-# Fortran module files
-*.mod
-*.smod
+# Fetched content
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+/var/db/repos/*
 
-# Executables
-*.exe
-*.out
-*.app
+# Secrets
+
+etc/pass*
+etc/group*
+etc/*shadow*
+etc/wpa_supplicant/
+etc/*net*
+etc/wireguard
+home/*
+root/*
+
+# Not actually files
+
+dev/*
+sys/*
+proc/*
+!proc/config.gz
+run/*
+
+# Vendor trash
+
+/tmp/*
+/var/tmp/*
