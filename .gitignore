@@ -6,27 +6,30 @@ swapfile
 
 # Generated or built from source
 
+boot/*
 lib/*
 lib64/*
-/usr/lib/*
-/usr/lib*/*
-/usr/*bin/*
+usr/lib/*
+usr/lib*/*
+usr/*bin/*
+usr/share/*
+usr/include/*
+usr/x86_64-pc-linux-gnu
 
 # Fetched content
 
-/var/db/repos/*
+var/db/repos/*
 
 # Secrets
 
 etc/pass*
 etc/group*
 etc/*shadow*
-etc/wpa_supplicant/
 etc/*net*
 etc/wireguard
 home/*
 root/*
-
+etc/ssl/*
 # Not actually files
 
 dev/*
@@ -37,5 +40,8 @@ run/*
 
 # Vendor trash
 
-/tmp/*
-/var/tmp/*
+tmp/*
+var/tmp/*
+var/db/pkg/*
+var/cache/*
+usr/tmp/*
