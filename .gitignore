@@ -34,9 +34,8 @@ etc/ssl/*
 
 dev/*
 sys/*
-proc/*
-!proc/config.gz
 run/*
+proc/*
 
 # Vendor trash
 
