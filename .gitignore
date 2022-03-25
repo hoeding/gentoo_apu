@@ -45,3 +45,4 @@ var/tmp/*
 var/db/pkg/*
 var/cache/*
 usr/tmp/*
+stage3*
