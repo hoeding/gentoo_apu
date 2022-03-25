@@ -45,3 +45,4 @@ var/db/pkg/*
 var/cache/*
 usr/tmp/*
 stage3*
+*.swp
