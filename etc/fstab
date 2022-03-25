@@ -27,3 +27,5 @@
 #UUID=58e72203-57d1-4497-81ad-97655bd56494		/		ext4		noatime		0 1
 #LABEL=swap		none		swap		sw		0 0
 #/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
+/dev/sda1		/		ext4		noatime		0 1
+/dev/sda5		none		swap		sw		0 0
