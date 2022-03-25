@@ -7,10 +7,6 @@ swapfile
 # Generated or built from source
 
 boot/*
-lib/*
-lib64/*
-usr/lib/*
-usr/lib*/*
 usr/*bin/*
 usr/share/*
 usr/include/*
