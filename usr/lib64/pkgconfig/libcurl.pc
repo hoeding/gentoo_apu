@@ -27,7 +27,7 @@ prefix=/usr
 exec_prefix=${prefix}
 libdir=/usr/lib64
 includedir=${prefix}/include
-supported_protocols="DICT FILE FTP FTPS HTTP HTTPS IMAP IMAPS MQTT POP3 POP3S RTSP SMTP SMTPS TFTP"
+supported_protocols="DICT FILE HTTP HTTPS MQTT RTSP"
 supported_features="HTTP2 HTTPS-proxy IPv6 Largefile NTLM SSL TLS-SRP UnixSockets libz"
 
 Name: libcurl

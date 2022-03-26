@@ -1,22 +1,22 @@
 #acl
-app-arch/tar acl
-net-misc/rsync acl
-sys-apps/coreutils acl
-sys-apps/sed acl
-sys-apps/shadow acl
-app-editors/vim acl
-app-editors/vim-core acl
-sys-devel/gettext acl
-sys-fs/udev acl
+#app-arch/tar acl #base
+#net-misc/rsync acl #base
+#sys-apps/coreutils acl #bas
+#sys-apps/sed acl #base
+#sys-apps/shadow acl #base
+#app-editors/vim acl #base
+#app-editors/vim-core acl #base
+#sys-devel/gettext acl #base
+#sys-fs/udev acl #base
 #arp
 sys-apps/net-tools arp
 #arping
 net-misc/iputils arping
 #asm
-dev-libs/libsodium asm
-dev-libs/libgcrypt asm
-dev-libs/gmp asm
-dev-libs/openssl asm
+#dev-libs/libsodium asm #base
+#dev-libs/libgcrypt asm #base
+#dev-libs/gmp asm #base
+#dev-libs/openssl asm #base
 #berkdb
 sys-libs/gdbm berkdb
 #bzip2
@@ -26,27 +26,27 @@ dev-libs/libpcre2 bzip2
 sys-apps/file bzip2
 app-crypt/gnupg bzip2
 #cramfs
-sys-apps/util-linux cramfs
+#sys-apps/util-linux cramfs #base
 #crypt
-dev-libs/libxslt crypt
-app-editors/vim crypt
+#dev-libs/libxslt crypt #base
+#app-editors/vim crypt #base
 #cxx
-sys-libs/ncurses cxx
-net-libs/gnutls cxx
-dev-libs/gmp cxx
-sys-devel/gettext cxx
-dev-libs/libpcre cxx
-app-crypt/gpgme cxx
+#sys-libs/ncurses cxx #base
+#net-libs/gnutls cxx #base
+#dev-libs/gmp cxx #base
+#sys-devel/gettext cxx #base
+#dev-libs/libpcre cxx #base
+#app-crypt/gpgme cxx #base
 #extra-filters
 app-arch/xz extra-filters
 app-arch/xz-utils extra-filters
 #filecaps
-sys-libs/pam filecaps
-net-misc/iputils filecaps
+#sys-libs/pam filecaps #base
+#net-misc/iputils filecaps #base
 #fortran
-sys-devel/gcc fortran
+#sys-devel/gcc fortran #base
 #ftp
-net-misc/curl ftp
+#net-misc/curl ftp #base
 #gdbm
 dev-lang/python gdbm
 dev-lang/perl gdbm
@@ -66,11 +66,11 @@ net-misc/rsync iconv
 #idn
 net-libs/gnutls idn
 #imap
-net-misc/curl imap
+#net-misc/curl imap #base
 #installkernel
 sys-apps/debianutils installkernel
 #iptables
-sys-apps/iproute2 iptables
+#sys-apps/iproute2 iptables
 #jit
 dev-libs/libpcre jit
 dev-libs/libpcre2 jit
@@ -83,15 +83,15 @@ sys-apps/util-linux logger
 #lua_single_target
 app-editors/vim lua_single_target_lua5-1
 #lzma
-sys-apps/kmod lzma
+#sys-apps/kmod lzma #base
 #manpager
-sys-apps/man-db manpager
+#sys-apps/man-db manpager #base
 #multiarch
 sys-libs/glibc multiarch
 #native-extensions
 sys-apps/portage native-extensions
 #net
-app-shells/bash net
+#app-shells/bash net #base
 #ncurses
 sys-apps/openrc ncurses
 app-crypt/pinentry ncurses
@@ -107,10 +107,10 @@ sys-devel/gcc nptl
 #nullok
 sys-auth/pambase nullok
 #openmp
-sys-devel/gcc openmp
-sys-devel/gettext openmp
-app-portage/portage-utils openmp
-app-crypt/libb2 openmp
+#sys-devel/gcc openmp #base
+#sys-devel/gettext openmp #base
+#app-portage/portage-utils openmp #base
+#app-crypt/libb2 openmp #base
 #openssl
 net-libs/gnutls openssl
 net-misc/curl openssl
@@ -122,7 +122,7 @@ sys-apps/util-linux pam
 sys-libs/libcap pam
 sys-apps/kbd pam
 #passwdqc
-sys-auth/pambase passwdqc #hunter2
+#sys-auth/pambase passwdqc #hunter2
 #pcre
 sys-apps/grep pcre
 sys-apps/less pcre
@@ -134,11 +134,11 @@ sys-libs/glibc pie
 #plugins
 sys-devel/binutils plugins
 #pop3
-net-misc/curl pop3
+#net-misc/curl pop3 base
 #progress-meter
-net-misc/curl progress-meter
+#net-misc/curl progress-meter #base
 #python
-dev-libs/libxml2 python
+#dev-libs/libxml2 python #base
 #python3_10
 sys-apps/file python_targets_python3_10
 sys-apps/kmod python_targets_python3_10
@@ -190,18 +190,18 @@ sys-apps/man-db seccomp
 #sha512
 sys-auth/pambase sha512
 #smartcard
-app-crypt/gnupg smartcard
+#app-crypt/gnupg smartcard #base
 #smtp
-net-misc/curl smtp
+#net-misc/curl smtp #base...what
 #ssl
 net-misc/rsync ssl
 dev-lang/python ssl
 net-misc/openssh ssl
 net-misc/curl ssl curl_ssl_openssl
 app-crypt/gnupg ssl
-net-misc/iputils ssl
+#net-misc/iputils ssl #base
 #sqlite
-dev-lang/python sqlite
+#dev-lang/python sqlite
 #ssp
 sys-devel/gcc ssp
 sys-libs/glibc ssp
@@ -210,11 +210,11 @@ sys-apps/texinfo standalone
 #su
 sys-apps/util-linux su
 #sudo
-sys-apps/util-linux sudo
+#sys-apps/util-linux sudo
 #suid
 sys-apps/util-linux suid
 #tftp
-net-misc/curl tftp
+#net-misc/curl tftp #base
 #threads
 sys-fs/e2fsprogs threads
 app-arch/zstd threads
@@ -225,7 +225,7 @@ net-libs/gnutls tls-heartbeat
 #unicode
 sys-apps/openrc unicode
 #urandom
-dev-libs/libsodium urandom
+#dev-libs/libsodium urandom #obsoleted by kernel ~5.17
 #xattr
 sys-devel/patch xattr
 app-arch/tar xattr
@@ -236,12 +236,12 @@ sys-apps/portage xattr
 #xml
 dev-lang/python xml
 #zlib
-sys-apps/kmod zlib
+#sys-apps/kmod zlib #base
 net-misc/wget zlib
 dev-libs/libpcre zlib
 dev-libs/libpcre2 zlib
 sys-apps/file zlib
-sys-apps/man-db zlib
+#sys-apps/man-db zlib #base
 #zstd
 sys-apps/kmod zstd
 net-misc/rsync zstd

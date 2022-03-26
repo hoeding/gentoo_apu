@@ -1412,3 +1412,438 @@
 1648261435:  >>> unmerge success: dev-python/zipp-3.7.0-r1
 1648261435:  *** exiting successfully.
 1648261435:  *** terminating.
+1648262028: Started emerge on: Mar 26, 2022 02:33:48
+1648262028:  *** emerge --verbose-conflicts --newuse --tree --update --ask --autounmask-backtrack=n --backtrack=100 --changed-deps=y --color=y --deep --keep-going --with-bdeps=y --reinstall=changed-use --regex-search-auto=y --verbose @world
+1648262042:  >>> emerge (1 of 2) dev-lang/python-3.10.2_p1 to /
+1648262045:  === (1 of 2) Cleaning (dev-lang/python-3.10.2_p1::/var/db/repos/gentoo/dev-lang/python/python-3.10.2_p1.ebuild)
+1648262045:  === (1 of 2) Compiling/Merging (dev-lang/python-3.10.2_p1::/var/db/repos/gentoo/dev-lang/python/python-3.10.2_p1.ebuild)
+1648262098:  === (1 of 2) Merging (dev-lang/python-3.10.2_p1::/var/db/repos/gentoo/dev-lang/python/python-3.10.2_p1.ebuild)
+1648262104:  >>> AUTOCLEAN: dev-lang/python:3.10
+1648262104:  === Unmerging... (dev-lang/python-3.10.2_p1)
+1648262105:  >>> unmerge success: dev-lang/python-3.10.2_p1
+1648262107:  === (1 of 2) Post-Build Cleaning (dev-lang/python-3.10.2_p1::/var/db/repos/gentoo/dev-lang/python/python-3.10.2_p1.ebuild)
+1648262107:  ::: completed emerge (1 of 2) dev-lang/python-3.10.2_p1 to /
+1648262107:  >>> emerge (2 of 2) dev-lang/python-3.9.9-r1 to /
+1648262107:  === (2 of 2) Cleaning (dev-lang/python-3.9.9-r1::/var/db/repos/gentoo/dev-lang/python/python-3.9.9-r1.ebuild)
+1648262107:  === (2 of 2) Compiling/Merging (dev-lang/python-3.9.9-r1::/var/db/repos/gentoo/dev-lang/python/python-3.9.9-r1.ebuild)
+1648262158:  === (2 of 2) Merging (dev-lang/python-3.9.9-r1::/var/db/repos/gentoo/dev-lang/python/python-3.9.9-r1.ebuild)
+1648262164:  >>> AUTOCLEAN: dev-lang/python:3.9
+1648262164:  === Unmerging... (dev-lang/python-3.9.9-r1)
+1648262165:  >>> unmerge success: dev-lang/python-3.9.9-r1
+1648262166:  === (2 of 2) Post-Build Cleaning (dev-lang/python-3.9.9-r1::/var/db/repos/gentoo/dev-lang/python/python-3.9.9-r1.ebuild)
+1648262166:  ::: completed emerge (2 of 2) dev-lang/python-3.9.9-r1 to /
+1648262166:  *** Finished. Cleaning up...
+1648262167:  *** exiting successfully.
+1648262167:  *** terminating.
+1648262342: Started emerge on: Mar 26, 2022 02:39:02
+1648262342:  *** emerge --verbose-conflicts --newuse --tree --update --ask --autounmask-backtrack=n --backtrack=100 --changed-deps=y --color=y --deep --keep-going --with-bdeps=y --reinstall=changed-use --regex-search-auto=y --verbose @world
+1648262376:  >>> emerge (1 of 13) dev-libs/openssl-1.1.1n to /
+1648262376:  === (1 of 13) Cleaning (dev-libs/openssl-1.1.1n::/var/db/repos/gentoo/dev-libs/openssl/openssl-1.1.1n.ebuild)
+1648262376:  === (1 of 13) Compiling/Merging (dev-libs/openssl-1.1.1n::/var/db/repos/gentoo/dev-libs/openssl/openssl-1.1.1n.ebuild)
+1648262430:  === (1 of 13) Merging (dev-libs/openssl-1.1.1n::/var/db/repos/gentoo/dev-libs/openssl/openssl-1.1.1n.ebuild)
+1648262433:  >>> AUTOCLEAN: dev-libs/openssl:0
+1648262433:  === Unmerging... (dev-libs/openssl-1.1.1n)
+1648262434:  >>> unmerge success: dev-libs/openssl-1.1.1n
+1648262437:  === (1 of 13) Post-Build Cleaning (dev-libs/openssl-1.1.1n::/var/db/repos/gentoo/dev-libs/openssl/openssl-1.1.1n.ebuild)
+1648262437:  ::: completed emerge (1 of 13) dev-libs/openssl-1.1.1n to /
+1648262437:  >>> emerge (2 of 13) dev-libs/libxml2-2.9.13-r1 to /
+1648262437:  === (2 of 13) Cleaning (dev-libs/libxml2-2.9.13-r1::/var/db/repos/gentoo/dev-libs/libxml2/libxml2-2.9.13-r1.ebuild)
+1648262437:  === (2 of 13) Compiling/Merging (dev-libs/libxml2-2.9.13-r1::/var/db/repos/gentoo/dev-libs/libxml2/libxml2-2.9.13-r1.ebuild)
+1648262454:  === (2 of 13) Merging (dev-libs/libxml2-2.9.13-r1::/var/db/repos/gentoo/dev-libs/libxml2/libxml2-2.9.13-r1.ebuild)
+1648262455:  >>> AUTOCLEAN: dev-libs/libxml2:2
+1648262455:  === Unmerging... (dev-libs/libxml2-2.9.13-r1)
+1648262456:  >>> unmerge success: dev-libs/libxml2-2.9.13-r1
+1648262458:  === (2 of 13) Post-Build Cleaning (dev-libs/libxml2-2.9.13-r1::/var/db/repos/gentoo/dev-libs/libxml2/libxml2-2.9.13-r1.ebuild)
+1648262458:  ::: completed emerge (2 of 13) dev-libs/libxml2-2.9.13-r1 to /
+1648262458:  >>> emerge (3 of 13) sys-apps/util-linux-2.37.4 to /
+1648262458:  === (3 of 13) Cleaning (sys-apps/util-linux-2.37.4::/var/db/repos/gentoo/sys-apps/util-linux/util-linux-2.37.4.ebuild)
+1648262459:  === (3 of 13) Compiling/Merging (sys-apps/util-linux-2.37.4::/var/db/repos/gentoo/sys-apps/util-linux/util-linux-2.37.4.ebuild)
+1648262483:  === (3 of 13) Merging (sys-apps/util-linux-2.37.4::/var/db/repos/gentoo/sys-apps/util-linux/util-linux-2.37.4.ebuild)
+1648262485:  >>> AUTOCLEAN: sys-apps/util-linux:0
+1648262485:  === Unmerging... (sys-apps/util-linux-2.37.4)
+1648262486:  >>> unmerge success: sys-apps/util-linux-2.37.4
+1648262487:  === (3 of 13) Post-Build Cleaning (sys-apps/util-linux-2.37.4::/var/db/repos/gentoo/sys-apps/util-linux/util-linux-2.37.4.ebuild)
+1648262487:  ::: completed emerge (3 of 13) sys-apps/util-linux-2.37.4 to /
+1648262487:  >>> emerge (4 of 13) dev-libs/gmp-6.2.1-r2 to /
+1648262487:  === (4 of 13) Cleaning (dev-libs/gmp-6.2.1-r2::/var/db/repos/gentoo/dev-libs/gmp/gmp-6.2.1-r2.ebuild)
+1648262487:  === (4 of 13) Compiling/Merging (dev-libs/gmp-6.2.1-r2::/var/db/repos/gentoo/dev-libs/gmp/gmp-6.2.1-r2.ebuild)
+1648262508:  === (4 of 13) Merging (dev-libs/gmp-6.2.1-r2::/var/db/repos/gentoo/dev-libs/gmp/gmp-6.2.1-r2.ebuild)
+1648262508:  >>> AUTOCLEAN: dev-libs/gmp:0
+1648262508:  === Unmerging... (dev-libs/gmp-6.2.1-r2)
+1648262509:  >>> unmerge success: dev-libs/gmp-6.2.1-r2
+1648262510:  === (4 of 13) Post-Build Cleaning (dev-libs/gmp-6.2.1-r2::/var/db/repos/gentoo/dev-libs/gmp/gmp-6.2.1-r2.ebuild)
+1648262510:  ::: completed emerge (4 of 13) dev-libs/gmp-6.2.1-r2 to /
+1648262510:  >>> emerge (5 of 13) sys-devel/gcc-11.2.1_p20220115 to /
+1648262510:  === (5 of 13) Cleaning (sys-devel/gcc-11.2.1_p20220115::/var/db/repos/gentoo/sys-devel/gcc/gcc-11.2.1_p20220115.ebuild)
+1648262511:  === (5 of 13) Compiling/Merging (sys-devel/gcc-11.2.1_p20220115::/var/db/repos/gentoo/sys-devel/gcc/gcc-11.2.1_p20220115.ebuild)
+1648264110:  === (5 of 13) Merging (sys-devel/gcc-11.2.1_p20220115::/var/db/repos/gentoo/sys-devel/gcc/gcc-11.2.1_p20220115.ebuild)
+1648264111:  >>> AUTOCLEAN: sys-devel/gcc:11
+1648264111:  === Unmerging... (sys-devel/gcc-11.2.1_p20220115)
+1648264112:  >>> unmerge success: sys-devel/gcc-11.2.1_p20220115
+1648264115:  === (5 of 13) Post-Build Cleaning (sys-devel/gcc-11.2.1_p20220115::/var/db/repos/gentoo/sys-devel/gcc/gcc-11.2.1_p20220115.ebuild)
+1648264115:  ::: completed emerge (5 of 13) sys-devel/gcc-11.2.1_p20220115 to /
+1648264115:  >>> emerge (6 of 13) dev-libs/libxslt-1.1.35 to /
+1648264115:  === (6 of 13) Cleaning (dev-libs/libxslt-1.1.35::/var/db/repos/gentoo/dev-libs/libxslt/libxslt-1.1.35.ebuild)
+1648264115:  === (6 of 13) Compiling/Merging (dev-libs/libxslt-1.1.35::/var/db/repos/gentoo/dev-libs/libxslt/libxslt-1.1.35.ebuild)
+1648264124:  === (6 of 13) Merging (dev-libs/libxslt-1.1.35::/var/db/repos/gentoo/dev-libs/libxslt/libxslt-1.1.35.ebuild)
+1648264125:  >>> AUTOCLEAN: dev-libs/libxslt:0
+1648264125:  === Unmerging... (dev-libs/libxslt-1.1.35)
+1648264125:  >>> unmerge success: dev-libs/libxslt-1.1.35
+1648264128:  === (6 of 13) Post-Build Cleaning (dev-libs/libxslt-1.1.35::/var/db/repos/gentoo/dev-libs/libxslt/libxslt-1.1.35.ebuild)
+1648264128:  ::: completed emerge (6 of 13) dev-libs/libxslt-1.1.35 to /
+1648264128:  >>> emerge (7 of 13) app-shells/bash-5.1_p16 to /
+1648264128:  === (7 of 13) Cleaning (app-shells/bash-5.1_p16::/var/db/repos/gentoo/app-shells/bash/bash-5.1_p16.ebuild)
+1648264128:  === (7 of 13) Compiling/Merging (app-shells/bash-5.1_p16::/var/db/repos/gentoo/app-shells/bash/bash-5.1_p16.ebuild)
+1648264151:  === (7 of 13) Merging (app-shells/bash-5.1_p16::/var/db/repos/gentoo/app-shells/bash/bash-5.1_p16.ebuild)
+1648264152:  >>> AUTOCLEAN: app-shells/bash:0
+1648264152:  === Unmerging... (app-shells/bash-5.1_p16)
+1648264153:  >>> unmerge success: app-shells/bash-5.1_p16
+1648264155:  === (7 of 13) Post-Build Cleaning (app-shells/bash-5.1_p16::/var/db/repos/gentoo/app-shells/bash/bash-5.1_p16.ebuild)
+1648264155:  ::: completed emerge (7 of 13) app-shells/bash-5.1_p16 to /
+1648264155:  >>> emerge (8 of 13) dev-libs/libgcrypt-1.9.4-r1 to /
+1648264155:  === (8 of 13) Cleaning (dev-libs/libgcrypt-1.9.4-r1::/var/db/repos/gentoo/dev-libs/libgcrypt/libgcrypt-1.9.4-r1.ebuild)
+1648264155:  === (8 of 13) Compiling/Merging (dev-libs/libgcrypt-1.9.4-r1::/var/db/repos/gentoo/dev-libs/libgcrypt/libgcrypt-1.9.4-r1.ebuild)
+1648264176:  === (8 of 13) Merging (dev-libs/libgcrypt-1.9.4-r1::/var/db/repos/gentoo/dev-libs/libgcrypt/libgcrypt-1.9.4-r1.ebuild)
+1648264176:  >>> AUTOCLEAN: dev-libs/libgcrypt:0
+1648264176:  === Unmerging... (dev-libs/libgcrypt-1.9.4-r1)
+1648264177:  >>> unmerge success: dev-libs/libgcrypt-1.9.4-r1
+1648264180:  === (8 of 13) Post-Build Cleaning (dev-libs/libgcrypt-1.9.4-r1::/var/db/repos/gentoo/dev-libs/libgcrypt/libgcrypt-1.9.4-r1.ebuild)
+1648264180:  ::: completed emerge (8 of 13) dev-libs/libgcrypt-1.9.4-r1 to /
+1648264180:  >>> emerge (9 of 13) app-editors/vim-8.2.4328-r1 to /
+1648264180:  === (9 of 13) Cleaning (app-editors/vim-8.2.4328-r1::/var/db/repos/gentoo/app-editors/vim/vim-8.2.4328-r1.ebuild)
+1648264180:  === (9 of 13) Compiling/Merging (app-editors/vim-8.2.4328-r1::/var/db/repos/gentoo/app-editors/vim/vim-8.2.4328-r1.ebuild)
+1648264199:  === (9 of 13) Merging (app-editors/vim-8.2.4328-r1::/var/db/repos/gentoo/app-editors/vim/vim-8.2.4328-r1.ebuild)
+1648264199:  >>> AUTOCLEAN: app-editors/vim:0
+1648264199:  === Unmerging... (app-editors/vim-8.2.4328-r1)
+1648264202:  >>> unmerge success: app-editors/vim-8.2.4328-r1
+1648264207:  === (9 of 13) Post-Build Cleaning (app-editors/vim-8.2.4328-r1::/var/db/repos/gentoo/app-editors/vim/vim-8.2.4328-r1.ebuild)
+1648264207:  ::: completed emerge (9 of 13) app-editors/vim-8.2.4328-r1 to /
+1648264207:  >>> emerge (10 of 13) net-misc/curl-7.79.1-r1 to /
+1648264207:  === (10 of 13) Cleaning (net-misc/curl-7.79.1-r1::/var/db/repos/gentoo/net-misc/curl/curl-7.79.1-r1.ebuild)
+1648264207:  === (10 of 13) Compiling/Merging (net-misc/curl-7.79.1-r1::/var/db/repos/gentoo/net-misc/curl/curl-7.79.1-r1.ebuild)
+1648264238:  === (10 of 13) Merging (net-misc/curl-7.79.1-r1::/var/db/repos/gentoo/net-misc/curl/curl-7.79.1-r1.ebuild)
+1648264239:  >>> AUTOCLEAN: net-misc/curl:0
+1648264239:  === Unmerging... (net-misc/curl-7.79.1-r1)
+1648264239:  >>> unmerge success: net-misc/curl-7.79.1-r1
+1648264240:  === (10 of 13) Post-Build Cleaning (net-misc/curl-7.79.1-r1::/var/db/repos/gentoo/net-misc/curl/curl-7.79.1-r1.ebuild)
+1648264240:  ::: completed emerge (10 of 13) net-misc/curl-7.79.1-r1 to /
+1648264240:  >>> emerge (11 of 13) app-crypt/gnupg-2.2.34-r1 to /
+1648264240:  === (11 of 13) Cleaning (app-crypt/gnupg-2.2.34-r1::/var/db/repos/gentoo/app-crypt/gnupg/gnupg-2.2.34-r1.ebuild)
+1648264240:  === (11 of 13) Compiling/Merging (app-crypt/gnupg-2.2.34-r1::/var/db/repos/gentoo/app-crypt/gnupg/gnupg-2.2.34-r1.ebuild)
+1648264265:  === (11 of 13) Merging (app-crypt/gnupg-2.2.34-r1::/var/db/repos/gentoo/app-crypt/gnupg/gnupg-2.2.34-r1.ebuild)
+1648264266:  >>> AUTOCLEAN: app-crypt/gnupg:0
+1648264266:  === Unmerging... (app-crypt/gnupg-2.2.34-r1)
+1648264266:  >>> unmerge success: app-crypt/gnupg-2.2.34-r1
+1648264269:  === (11 of 13) Post-Build Cleaning (app-crypt/gnupg-2.2.34-r1::/var/db/repos/gentoo/app-crypt/gnupg/gnupg-2.2.34-r1.ebuild)
+1648264269:  ::: completed emerge (11 of 13) app-crypt/gnupg-2.2.34-r1 to /
+1648264269:  >>> emerge (12 of 13) sys-auth/pambase-20210201.1 to /
+1648264269:  === (12 of 13) Cleaning (sys-auth/pambase-20210201.1::/var/db/repos/gentoo/sys-auth/pambase/pambase-20210201.1.ebuild)
+1648264269:  === (12 of 13) Compiling/Merging (sys-auth/pambase-20210201.1::/var/db/repos/gentoo/sys-auth/pambase/pambase-20210201.1.ebuild)
+1648264271:  === (12 of 13) Merging (sys-auth/pambase-20210201.1::/var/db/repos/gentoo/sys-auth/pambase/pambase-20210201.1.ebuild)
+1648264272:  >>> AUTOCLEAN: sys-auth/pambase:0
+1648264272:  === Unmerging... (sys-auth/pambase-20210201.1)
+1648264272:  >>> unmerge success: sys-auth/pambase-20210201.1
+1648264273:  === (12 of 13) Post-Build Cleaning (sys-auth/pambase-20210201.1::/var/db/repos/gentoo/sys-auth/pambase/pambase-20210201.1.ebuild)
+1648264273:  ::: completed emerge (12 of 13) sys-auth/pambase-20210201.1 to /
+1648264273:  >>> emerge (13 of 13) sys-apps/man-db-2.9.4-r1 to /
+1648264273:  === (13 of 13) Cleaning (sys-apps/man-db-2.9.4-r1::/var/db/repos/gentoo/sys-apps/man-db/man-db-2.9.4-r1.ebuild)
+1648264273:  === (13 of 13) Compiling/Merging (sys-apps/man-db-2.9.4-r1::/var/db/repos/gentoo/sys-apps/man-db/man-db-2.9.4-r1.ebuild)
+1648264319:  === (13 of 13) Merging (sys-apps/man-db-2.9.4-r1::/var/db/repos/gentoo/sys-apps/man-db/man-db-2.9.4-r1.ebuild)
+1648264320:  >>> AUTOCLEAN: sys-apps/man-db:0
+1648264320:  === Unmerging... (sys-apps/man-db-2.9.4-r1)
+1648264321:  >>> unmerge success: sys-apps/man-db-2.9.4-r1
+1648264322:  === (13 of 13) Post-Build Cleaning (sys-apps/man-db-2.9.4-r1::/var/db/repos/gentoo/sys-apps/man-db/man-db-2.9.4-r1.ebuild)
+1648264322:  ::: completed emerge (13 of 13) sys-apps/man-db-2.9.4-r1 to /
+1648264322:  *** Finished. Cleaning up...
+1648264322:  *** exiting successfully.
+1648264322:  *** terminating.
+1648265342: Started emerge on: Mar 26, 2022 03:29:02
+1648265342:  *** emerge --verbose-conflicts --newuse --tree --update --ask --autounmask-backtrack=n --backtrack=100 --changed-deps=y --color=y --deep --keep-going --with-bdeps=y --reinstall=changed-use --regex-search-auto=y --verbose @world
+1648265346:  *** exiting successfully.
+1648265346:  *** terminating.
+1648266464: Started emerge on: Mar 26, 2022 03:47:44
+1648266464:  *** emerge --verbose-conflicts --newuse --tree --update --ask --autounmask-backtrack=n --backtrack=100 --changed-deps=y --color=y --deep --keep-going --with-bdeps=y --reinstall=changed-use --regex-search-auto=y --verbose @world
+1648266494:  >>> emerge (1 of 23) sys-libs/ncurses-6.2_p20210619 to /
+1648266495:  === (1 of 23) Cleaning (sys-libs/ncurses-6.2_p20210619::/var/db/repos/gentoo/sys-libs/ncurses/ncurses-6.2_p20210619.ebuild)
+1648266497:  === (1 of 23) Compiling/Merging (sys-libs/ncurses-6.2_p20210619::/var/db/repos/gentoo/sys-libs/ncurses/ncurses-6.2_p20210619.ebuild)
+1648266587:  === (1 of 23) Merging (sys-libs/ncurses-6.2_p20210619::/var/db/repos/gentoo/sys-libs/ncurses/ncurses-6.2_p20210619.ebuild)
+1648266589:  >>> AUTOCLEAN: sys-libs/ncurses:0
+1648266589:  === Unmerging... (sys-libs/ncurses-6.2_p20210619)
+1648266590:  >>> unmerge success: sys-libs/ncurses-6.2_p20210619
+1648266591:  === (1 of 23) Post-Build Cleaning (sys-libs/ncurses-6.2_p20210619::/var/db/repos/gentoo/sys-libs/ncurses/ncurses-6.2_p20210619.ebuild)
+1648266591:  ::: completed emerge (1 of 23) sys-libs/ncurses-6.2_p20210619 to /
+1648266591:  >>> emerge (2 of 23) dev-libs/libpcre-8.45-r1 to /
+1648266591:  === (2 of 23) Cleaning (dev-libs/libpcre-8.45-r1::/var/db/repos/gentoo/dev-libs/libpcre/libpcre-8.45-r1.ebuild)
+1648266591:  === (2 of 23) Compiling/Merging (dev-libs/libpcre-8.45-r1::/var/db/repos/gentoo/dev-libs/libpcre/libpcre-8.45-r1.ebuild)
+1648266601:  === (2 of 23) Merging (dev-libs/libpcre-8.45-r1::/var/db/repos/gentoo/dev-libs/libpcre/libpcre-8.45-r1.ebuild)
+1648266601:  >>> AUTOCLEAN: dev-libs/libpcre:3
+1648266601:  === Unmerging... (dev-libs/libpcre-8.45-r1)
+1648266602:  >>> unmerge success: dev-libs/libpcre-8.45-r1
+1648266603:  === (2 of 23) Post-Build Cleaning (dev-libs/libpcre-8.45-r1::/var/db/repos/gentoo/dev-libs/libpcre/libpcre-8.45-r1.ebuild)
+1648266603:  ::: completed emerge (2 of 23) dev-libs/libpcre-8.45-r1 to /
+1648266603:  >>> emerge (3 of 23) sys-devel/gettext-0.21-r1 to /
+1648266603:  === (3 of 23) Cleaning (sys-devel/gettext-0.21-r1::/var/db/repos/gentoo/sys-devel/gettext/gettext-0.21-r1.ebuild)
+1648266603:  === (3 of 23) Compiling/Merging (sys-devel/gettext-0.21-r1::/var/db/repos/gentoo/sys-devel/gettext/gettext-0.21-r1.ebuild)
+1648266729:  === (3 of 23) Merging (sys-devel/gettext-0.21-r1::/var/db/repos/gentoo/sys-devel/gettext/gettext-0.21-r1.ebuild)
+1648266730:  >>> AUTOCLEAN: sys-devel/gettext:0
+1648266730:  === Unmerging... (sys-devel/gettext-0.21-r1)
+1648266731:  >>> unmerge success: sys-devel/gettext-0.21-r1
+1648266732:  === (3 of 23) Post-Build Cleaning (sys-devel/gettext-0.21-r1::/var/db/repos/gentoo/sys-devel/gettext/gettext-0.21-r1.ebuild)
+1648266732:  ::: completed emerge (3 of 23) sys-devel/gettext-0.21-r1 to /
+1648266732:  >>> emerge (4 of 23) sys-apps/sed-4.8 to /
+1648266732:  === (4 of 23) Cleaning (sys-apps/sed-4.8::/var/db/repos/gentoo/sys-apps/sed/sed-4.8.ebuild)
+1648266732:  === (4 of 23) Compiling/Merging (sys-apps/sed-4.8::/var/db/repos/gentoo/sys-apps/sed/sed-4.8.ebuild)
+1648266752:  === (4 of 23) Merging (sys-apps/sed-4.8::/var/db/repos/gentoo/sys-apps/sed/sed-4.8.ebuild)
+1648266753:  >>> AUTOCLEAN: sys-apps/sed:0
+1648266753:  === Unmerging... (sys-apps/sed-4.8)
+1648266753:  >>> unmerge success: sys-apps/sed-4.8
+1648266754:  === (4 of 23) Post-Build Cleaning (sys-apps/sed-4.8::/var/db/repos/gentoo/sys-apps/sed/sed-4.8.ebuild)
+1648266754:  ::: completed emerge (4 of 23) sys-apps/sed-4.8 to /
+1648266754:  >>> emerge (5 of 23) app-arch/tar-1.34 to /
+1648266754:  === (5 of 23) Cleaning (app-arch/tar-1.34::/var/db/repos/gentoo/app-arch/tar/tar-1.34.ebuild)
+1648266754:  === (5 of 23) Compiling/Merging (app-arch/tar-1.34::/var/db/repos/gentoo/app-arch/tar/tar-1.34.ebuild)
+1648266784:  === (5 of 23) Merging (app-arch/tar-1.34::/var/db/repos/gentoo/app-arch/tar/tar-1.34.ebuild)
+1648266785:  >>> AUTOCLEAN: app-arch/tar:0
+1648266785:  === Unmerging... (app-arch/tar-1.34)
+1648266785:  >>> unmerge success: app-arch/tar-1.34
+1648266786:  === (5 of 23) Post-Build Cleaning (app-arch/tar-1.34::/var/db/repos/gentoo/app-arch/tar/tar-1.34.ebuild)
+1648266786:  ::: completed emerge (5 of 23) app-arch/tar-1.34 to /
+1648266786:  >>> emerge (6 of 23) dev-libs/gmp-6.2.1-r2 to /
+1648266786:  === (6 of 23) Cleaning (dev-libs/gmp-6.2.1-r2::/var/db/repos/gentoo/dev-libs/gmp/gmp-6.2.1-r2.ebuild)
+1648266786:  === (6 of 23) Compiling/Merging (dev-libs/gmp-6.2.1-r2::/var/db/repos/gentoo/dev-libs/gmp/gmp-6.2.1-r2.ebuild)
+1648266805:  === (6 of 23) Merging (dev-libs/gmp-6.2.1-r2::/var/db/repos/gentoo/dev-libs/gmp/gmp-6.2.1-r2.ebuild)
+1648266805:  >>> AUTOCLEAN: dev-libs/gmp:0
+1648266805:  === Unmerging... (dev-libs/gmp-6.2.1-r2)
+1648266806:  >>> unmerge success: dev-libs/gmp-6.2.1-r2
+1648266808:  === (6 of 23) Post-Build Cleaning (dev-libs/gmp-6.2.1-r2::/var/db/repos/gentoo/dev-libs/gmp/gmp-6.2.1-r2.ebuild)
+1648266808:  ::: completed emerge (6 of 23) dev-libs/gmp-6.2.1-r2 to /
+1648266808:  >>> emerge (7 of 23) net-libs/gnutls-3.7.3-r1 to /
+1648266808:  === (7 of 23) Cleaning (net-libs/gnutls-3.7.3-r1::/var/db/repos/gentoo/net-libs/gnutls/gnutls-3.7.3-r1.ebuild)
+1648266808:  === (7 of 23) Compiling/Merging (net-libs/gnutls-3.7.3-r1::/var/db/repos/gentoo/net-libs/gnutls/gnutls-3.7.3-r1.ebuild)
+1648266864:  === (7 of 23) Merging (net-libs/gnutls-3.7.3-r1::/var/db/repos/gentoo/net-libs/gnutls/gnutls-3.7.3-r1.ebuild)
+1648266864:  >>> AUTOCLEAN: net-libs/gnutls:0
+1648266864:  === Unmerging... (net-libs/gnutls-3.7.3-r1)
+1648266865:  >>> unmerge success: net-libs/gnutls-3.7.3-r1
+1648266866:  === (7 of 23) Post-Build Cleaning (net-libs/gnutls-3.7.3-r1::/var/db/repos/gentoo/net-libs/gnutls/gnutls-3.7.3-r1.ebuild)
+1648266866:  ::: completed emerge (7 of 23) net-libs/gnutls-3.7.3-r1 to /
+1648266866:  >>> emerge (8 of 23) sys-apps/coreutils-8.32-r1 to /
+1648266866:  === (8 of 23) Cleaning (sys-apps/coreutils-8.32-r1::/var/db/repos/gentoo/sys-apps/coreutils/coreutils-8.32-r1.ebuild)
+1648266866:  === (8 of 23) Compiling/Merging (sys-apps/coreutils-8.32-r1::/var/db/repos/gentoo/sys-apps/coreutils/coreutils-8.32-r1.ebuild)
+1648266914:  === (8 of 23) Merging (sys-apps/coreutils-8.32-r1::/var/db/repos/gentoo/sys-apps/coreutils/coreutils-8.32-r1.ebuild)
+1648266915:  >>> AUTOCLEAN: sys-apps/coreutils:0
+1648266915:  === Unmerging... (sys-apps/coreutils-8.32-r1)
+1648266916:  >>> unmerge success: sys-apps/coreutils-8.32-r1
+1648266917:  === (8 of 23) Post-Build Cleaning (sys-apps/coreutils-8.32-r1::/var/db/repos/gentoo/sys-apps/coreutils/coreutils-8.32-r1.ebuild)
+1648266917:  ::: completed emerge (8 of 23) sys-apps/coreutils-8.32-r1 to /
+1648266917:  >>> emerge (9 of 23) net-misc/rsync-3.2.3-r5 to /
+1648266917:  === (9 of 23) Cleaning (net-misc/rsync-3.2.3-r5::/var/db/repos/gentoo/net-misc/rsync/rsync-3.2.3-r5.ebuild)
+1648266917:  === (9 of 23) Compiling/Merging (net-misc/rsync-3.2.3-r5::/var/db/repos/gentoo/net-misc/rsync/rsync-3.2.3-r5.ebuild)
+1648266930:  === (9 of 23) Merging (net-misc/rsync-3.2.3-r5::/var/db/repos/gentoo/net-misc/rsync/rsync-3.2.3-r5.ebuild)
+1648266931:  >>> AUTOCLEAN: net-misc/rsync:0
+1648266931:  === Unmerging... (net-misc/rsync-3.2.3-r5)
+1648266931:  >>> unmerge success: net-misc/rsync-3.2.3-r5
+1648266932:  === (9 of 23) Post-Build Cleaning (net-misc/rsync-3.2.3-r5::/var/db/repos/gentoo/net-misc/rsync/rsync-3.2.3-r5.ebuild)
+1648266932:  ::: completed emerge (9 of 23) net-misc/rsync-3.2.3-r5 to /
+1648266932:  >>> emerge (10 of 23) sys-apps/kmod-29 to /
+1648266932:  === (10 of 23) Cleaning (sys-apps/kmod-29::/var/db/repos/gentoo/sys-apps/kmod/kmod-29.ebuild)
+1648266932:  === (10 of 23) Compiling/Merging (sys-apps/kmod-29::/var/db/repos/gentoo/sys-apps/kmod/kmod-29.ebuild)
+1648266939:  === (10 of 23) Merging (sys-apps/kmod-29::/var/db/repos/gentoo/sys-apps/kmod/kmod-29.ebuild)
+1648266940:  >>> AUTOCLEAN: sys-apps/kmod:0
+1648266940:  === Unmerging... (sys-apps/kmod-29)
+1648266941:  >>> unmerge success: sys-apps/kmod-29
+1648266942:  === (10 of 23) Post-Build Cleaning (sys-apps/kmod-29::/var/db/repos/gentoo/sys-apps/kmod/kmod-29.ebuild)
+1648266942:  ::: completed emerge (10 of 23) sys-apps/kmod-29 to /
+1648266942:  >>> emerge (11 of 23) app-crypt/libb2-0.98.1-r2 to /
+1648266942:  === (11 of 23) Cleaning (app-crypt/libb2-0.98.1-r2::/var/db/repos/gentoo/app-crypt/libb2/libb2-0.98.1-r2.ebuild)
+1648266942:  === (11 of 23) Compiling/Merging (app-crypt/libb2-0.98.1-r2::/var/db/repos/gentoo/app-crypt/libb2/libb2-0.98.1-r2.ebuild)
+1648266950:  === (11 of 23) Merging (app-crypt/libb2-0.98.1-r2::/var/db/repos/gentoo/app-crypt/libb2/libb2-0.98.1-r2.ebuild)
+1648266950:  >>> AUTOCLEAN: app-crypt/libb2:0
+1648266950:  === Unmerging... (app-crypt/libb2-0.98.1-r2)
+1648266951:  >>> unmerge success: app-crypt/libb2-0.98.1-r2
+1648266952:  === (11 of 23) Post-Build Cleaning (app-crypt/libb2-0.98.1-r2::/var/db/repos/gentoo/app-crypt/libb2/libb2-0.98.1-r2.ebuild)
+1648266952:  ::: completed emerge (11 of 23) app-crypt/libb2-0.98.1-r2 to /
+1648266952:  >>> emerge (12 of 23) app-crypt/gpgme-1.16.0 to /
+1648266952:  === (12 of 23) Cleaning (app-crypt/gpgme-1.16.0::/var/db/repos/gentoo/app-crypt/gpgme/gpgme-1.16.0.ebuild)
+1648266952:  === (12 of 23) Compiling/Merging (app-crypt/gpgme-1.16.0::/var/db/repos/gentoo/app-crypt/gpgme/gpgme-1.16.0.ebuild)
+1648266965:  === (12 of 23) Merging (app-crypt/gpgme-1.16.0::/var/db/repos/gentoo/app-crypt/gpgme/gpgme-1.16.0.ebuild)
+1648266966:  >>> AUTOCLEAN: app-crypt/gpgme:1
+1648266966:  === Unmerging... (app-crypt/gpgme-1.16.0)
+1648266966:  >>> unmerge success: app-crypt/gpgme-1.16.0
+1648266967:  === (12 of 23) Post-Build Cleaning (app-crypt/gpgme-1.16.0::/var/db/repos/gentoo/app-crypt/gpgme/gpgme-1.16.0.ebuild)
+1648266967:  ::: completed emerge (12 of 23) app-crypt/gpgme-1.16.0 to /
+1648266967:  >>> emerge (13 of 23) app-portage/portage-utils-0.93.3 to /
+1648266967:  === (13 of 23) Cleaning (app-portage/portage-utils-0.93.3::/var/db/repos/gentoo/app-portage/portage-utils/portage-utils-0.93.3.ebuild)
+1648266967:  === (13 of 23) Compiling/Merging (app-portage/portage-utils-0.93.3::/var/db/repos/gentoo/app-portage/portage-utils/portage-utils-0.93.3.ebuild)
+1648266984:  === (13 of 23) Merging (app-portage/portage-utils-0.93.3::/var/db/repos/gentoo/app-portage/portage-utils/portage-utils-0.93.3.ebuild)
+1648266985:  >>> AUTOCLEAN: app-portage/portage-utils:0
+1648266985:  === Unmerging... (app-portage/portage-utils-0.93.3)
+1648266985:  >>> unmerge success: app-portage/portage-utils-0.93.3
+1648266986:  === (13 of 23) Post-Build Cleaning (app-portage/portage-utils-0.93.3::/var/db/repos/gentoo/app-portage/portage-utils/portage-utils-0.93.3.ebuild)
+1648266986:  ::: completed emerge (13 of 23) app-portage/portage-utils-0.93.3 to /
+1648266986:  >>> emerge (14 of 23) sys-libs/pam-1.5.1_p20210622-r1 to /
+1648266986:  === (14 of 23) Cleaning (sys-libs/pam-1.5.1_p20210622-r1::/var/db/repos/gentoo/sys-libs/pam/pam-1.5.1_p20210622-r1.ebuild)
+1648266986:  === (14 of 23) Compiling/Merging (sys-libs/pam-1.5.1_p20210622-r1::/var/db/repos/gentoo/sys-libs/pam/pam-1.5.1_p20210622-r1.ebuild)
+1648267020:  === (14 of 23) Merging (sys-libs/pam-1.5.1_p20210622-r1::/var/db/repos/gentoo/sys-libs/pam/pam-1.5.1_p20210622-r1.ebuild)
+1648267020:  >>> AUTOCLEAN: sys-libs/pam:0
+1648267020:  === Unmerging... (sys-libs/pam-1.5.1_p20210622-r1)
+1648267021:  >>> unmerge success: sys-libs/pam-1.5.1_p20210622-r1
+1648267022:  === (14 of 23) Post-Build Cleaning (sys-libs/pam-1.5.1_p20210622-r1::/var/db/repos/gentoo/sys-libs/pam/pam-1.5.1_p20210622-r1.ebuild)
+1648267022:  ::: completed emerge (14 of 23) sys-libs/pam-1.5.1_p20210622-r1 to /
+1648267022:  >>> emerge (15 of 23) app-editors/vim-core-8.2.4328-r1 to /
+1648267022:  === (15 of 23) Cleaning (app-editors/vim-core-8.2.4328-r1::/var/db/repos/gentoo/app-editors/vim-core/vim-core-8.2.4328-r1.ebuild)
+1648267022:  === (15 of 23) Compiling/Merging (app-editors/vim-core-8.2.4328-r1::/var/db/repos/gentoo/app-editors/vim-core/vim-core-8.2.4328-r1.ebuild)
+1648267032:  === (15 of 23) Merging (app-editors/vim-core-8.2.4328-r1::/var/db/repos/gentoo/app-editors/vim-core/vim-core-8.2.4328-r1.ebuild)
+1648267035:  >>> AUTOCLEAN: app-editors/vim-core:0
+1648267035:  === Unmerging... (app-editors/vim-core-8.2.4328-r1)
+1648267035:  >>> unmerge success: app-editors/vim-core-8.2.4328-r1
+1648267038:  === (15 of 23) Post-Build Cleaning (app-editors/vim-core-8.2.4328-r1::/var/db/repos/gentoo/app-editors/vim-core/vim-core-8.2.4328-r1.ebuild)
+1648267038:  ::: completed emerge (15 of 23) app-editors/vim-core-8.2.4328-r1 to /
+1648267038:  >>> emerge (16 of 23) app-editors/vim-8.2.4328-r1 to /
+1648267038:  === (16 of 23) Cleaning (app-editors/vim-8.2.4328-r1::/var/db/repos/gentoo/app-editors/vim/vim-8.2.4328-r1.ebuild)
+1648267038:  === (16 of 23) Compiling/Merging (app-editors/vim-8.2.4328-r1::/var/db/repos/gentoo/app-editors/vim/vim-8.2.4328-r1.ebuild)
+1648267056:  === (16 of 23) Merging (app-editors/vim-8.2.4328-r1::/var/db/repos/gentoo/app-editors/vim/vim-8.2.4328-r1.ebuild)
+1648267057:  >>> AUTOCLEAN: app-editors/vim:0
+1648267057:  === Unmerging... (app-editors/vim-8.2.4328-r1)
+1648267059:  >>> unmerge success: app-editors/vim-8.2.4328-r1
+1648267065:  === (16 of 23) Post-Build Cleaning (app-editors/vim-8.2.4328-r1::/var/db/repos/gentoo/app-editors/vim/vim-8.2.4328-r1.ebuild)
+1648267065:  ::: completed emerge (16 of 23) app-editors/vim-8.2.4328-r1 to /
+1648267065:  >>> emerge (17 of 23) sys-fs/udev-249.6-r2 to /
+1648267065:  === (17 of 23) Cleaning (sys-fs/udev-249.6-r2::/var/db/repos/gentoo/sys-fs/udev/udev-249.6-r2.ebuild)
+1648267065:  === (17 of 23) Compiling/Merging (sys-fs/udev-249.6-r2::/var/db/repos/gentoo/sys-fs/udev/udev-249.6-r2.ebuild)
+1648267090:  === (17 of 23) Merging (sys-fs/udev-249.6-r2::/var/db/repos/gentoo/sys-fs/udev/udev-249.6-r2.ebuild)
+1648267091:  >>> AUTOCLEAN: sys-fs/udev:0
+1648267091:  === Unmerging... (sys-fs/udev-249.6-r2)
+1648267091:  >>> unmerge success: sys-fs/udev-249.6-r2
+1648267095:  === (17 of 23) Post-Build Cleaning (sys-fs/udev-249.6-r2::/var/db/repos/gentoo/sys-fs/udev/udev-249.6-r2.ebuild)
+1648267095:  ::: completed emerge (17 of 23) sys-fs/udev-249.6-r2 to /
+1648267095:  >>> emerge (18 of 23) sys-devel/gcc-11.2.1_p20220115 to /
+1648267095:  === (18 of 23) Cleaning (sys-devel/gcc-11.2.1_p20220115::/var/db/repos/gentoo/sys-devel/gcc/gcc-11.2.1_p20220115.ebuild)
+1648267095:  === (18 of 23) Compiling/Merging (sys-devel/gcc-11.2.1_p20220115::/var/db/repos/gentoo/sys-devel/gcc/gcc-11.2.1_p20220115.ebuild)
+1648268627:  === (18 of 23) Merging (sys-devel/gcc-11.2.1_p20220115::/var/db/repos/gentoo/sys-devel/gcc/gcc-11.2.1_p20220115.ebuild)
+1648268629:  >>> AUTOCLEAN: sys-devel/gcc:11
+1648268629:  === Unmerging... (sys-devel/gcc-11.2.1_p20220115)
+1648268629:  >>> unmerge success: sys-devel/gcc-11.2.1_p20220115
+1648268633:  === (18 of 23) Post-Build Cleaning (sys-devel/gcc-11.2.1_p20220115::/var/db/repos/gentoo/sys-devel/gcc/gcc-11.2.1_p20220115.ebuild)
+1648268633:  ::: completed emerge (18 of 23) sys-devel/gcc-11.2.1_p20220115 to /
+1648268633:  >>> emerge (19 of 23) net-misc/iputils-20210722-r1 to /
+1648268633:  === (19 of 23) Cleaning (net-misc/iputils-20210722-r1::/var/db/repos/gentoo/net-misc/iputils/iputils-20210722-r1.ebuild)
+1648268633:  === (19 of 23) Compiling/Merging (net-misc/iputils-20210722-r1::/var/db/repos/gentoo/net-misc/iputils/iputils-20210722-r1.ebuild)
+1648268639:  === (19 of 23) Merging (net-misc/iputils-20210722-r1::/var/db/repos/gentoo/net-misc/iputils/iputils-20210722-r1.ebuild)
+1648268639:  >>> AUTOCLEAN: net-misc/iputils:0
+1648268639:  === Unmerging... (net-misc/iputils-20210722-r1)
+1648268640:  >>> unmerge success: net-misc/iputils-20210722-r1
+1648268641:  === (19 of 23) Post-Build Cleaning (net-misc/iputils-20210722-r1::/var/db/repos/gentoo/net-misc/iputils/iputils-20210722-r1.ebuild)
+1648268641:  ::: completed emerge (19 of 23) net-misc/iputils-20210722-r1 to /
+1648268641:  >>> emerge (20 of 23) sys-apps/iproute2-5.15.0 to /
+1648268641:  === (20 of 23) Cleaning (sys-apps/iproute2-5.15.0::/var/db/repos/gentoo/sys-apps/iproute2/iproute2-5.15.0.ebuild)
+1648268641:  === (20 of 23) Compiling/Merging (sys-apps/iproute2-5.15.0::/var/db/repos/gentoo/sys-apps/iproute2/iproute2-5.15.0.ebuild)
+1648268651:  === (20 of 23) Merging (sys-apps/iproute2-5.15.0::/var/db/repos/gentoo/sys-apps/iproute2/iproute2-5.15.0.ebuild)
+1648268651:  >>> AUTOCLEAN: sys-apps/iproute2:0
+1648268651:  === Unmerging... (sys-apps/iproute2-5.15.0)
+1648268652:  >>> unmerge success: sys-apps/iproute2-5.15.0
+1648268653:  === (20 of 23) Post-Build Cleaning (sys-apps/iproute2-5.15.0::/var/db/repos/gentoo/sys-apps/iproute2/iproute2-5.15.0.ebuild)
+1648268653:  ::: completed emerge (20 of 23) sys-apps/iproute2-5.15.0 to /
+1648268653:  >>> emerge (21 of 23) sys-apps/shadow-4.11.1 to /
+1648268653:  === (21 of 23) Cleaning (sys-apps/shadow-4.11.1::/var/db/repos/gentoo/sys-apps/shadow/shadow-4.11.1.ebuild)
+1648268653:  === (21 of 23) Compiling/Merging (sys-apps/shadow-4.11.1::/var/db/repos/gentoo/sys-apps/shadow/shadow-4.11.1.ebuild)
+1648268667:  === (21 of 23) Merging (sys-apps/shadow-4.11.1::/var/db/repos/gentoo/sys-apps/shadow/shadow-4.11.1.ebuild)
+1648268668:  >>> AUTOCLEAN: sys-apps/shadow:0
+1648268668:  === Unmerging... (sys-apps/shadow-4.11.1)
+1648268669:  >>> unmerge success: sys-apps/shadow-4.11.1
+1648268670:  === (21 of 23) Post-Build Cleaning (sys-apps/shadow-4.11.1::/var/db/repos/gentoo/sys-apps/shadow/shadow-4.11.1.ebuild)
+1648268670:  ::: completed emerge (21 of 23) sys-apps/shadow-4.11.1 to /
+1648268670:  >>> emerge (22 of 23) dev-lang/python-3.9.9-r1 to /
+1648268670:  === (22 of 23) Cleaning (dev-lang/python-3.9.9-r1::/var/db/repos/gentoo/dev-lang/python/python-3.9.9-r1.ebuild)
+1648268670:  === (22 of 23) Compiling/Merging (dev-lang/python-3.9.9-r1::/var/db/repos/gentoo/dev-lang/python/python-3.9.9-r1.ebuild)
+1648268721:  === (22 of 23) Merging (dev-lang/python-3.9.9-r1::/var/db/repos/gentoo/dev-lang/python/python-3.9.9-r1.ebuild)
+1648268726:  >>> AUTOCLEAN: dev-lang/python:3.9
+1648268726:  === Unmerging... (dev-lang/python-3.9.9-r1)
+1648268727:  >>> unmerge success: dev-lang/python-3.9.9-r1
+1648268729:  === (22 of 23) Post-Build Cleaning (dev-lang/python-3.9.9-r1::/var/db/repos/gentoo/dev-lang/python/python-3.9.9-r1.ebuild)
+1648268729:  ::: completed emerge (22 of 23) dev-lang/python-3.9.9-r1 to /
+1648268729:  >>> emerge (23 of 23) sys-apps/man-db-2.9.4-r1 to /
+1648268729:  === (23 of 23) Cleaning (sys-apps/man-db-2.9.4-r1::/var/db/repos/gentoo/sys-apps/man-db/man-db-2.9.4-r1.ebuild)
+1648268729:  === (23 of 23) Compiling/Merging (sys-apps/man-db-2.9.4-r1::/var/db/repos/gentoo/sys-apps/man-db/man-db-2.9.4-r1.ebuild)
+1648268775:  === (23 of 23) Merging (sys-apps/man-db-2.9.4-r1::/var/db/repos/gentoo/sys-apps/man-db/man-db-2.9.4-r1.ebuild)
+1648268776:  >>> AUTOCLEAN: sys-apps/man-db:0
+1648268776:  === Unmerging... (sys-apps/man-db-2.9.4-r1)
+1648268776:  >>> unmerge success: sys-apps/man-db-2.9.4-r1
+1648268777:  === (23 of 23) Post-Build Cleaning (sys-apps/man-db-2.9.4-r1::/var/db/repos/gentoo/sys-apps/man-db/man-db-2.9.4-r1.ebuild)
+1648268777:  ::: completed emerge (23 of 23) sys-apps/man-db-2.9.4-r1 to /
+1648268777:  *** Finished. Cleaning up...
+1648268778:  *** exiting successfully.
+1648268778:  *** terminating.
+1648269272: Started emerge on: Mar 26, 2022 04:34:31
+1648269272:  *** emerge --verbose-conflicts --newuse --tree --update --ask --autounmask-backtrack=n --backtrack=100 --changed-deps=y --color=y --deep --keep-going --with-bdeps=y --reinstall=changed-use --regex-search-auto=y --verbose @world
+1648269275:  *** exiting successfully.
+1648269275:  *** terminating.
+1648269293: Started emerge on: Mar 26, 2022 04:34:52
+1648269293:  *** emerge --emptytree --nodeps --oneshot --ask --regex-search-auto=y --verbose python
+1648269315:  >>> emerge (1 of 1) dev-lang/python-3.10.2_p1 to /
+1648269315:  === (1 of 1) Cleaning (dev-lang/python-3.10.2_p1::/var/db/repos/gentoo/dev-lang/python/python-3.10.2_p1.ebuild)
+1648269315:  === (1 of 1) Compiling/Merging (dev-lang/python-3.10.2_p1::/var/db/repos/gentoo/dev-lang/python/python-3.10.2_p1.ebuild)
+1648269367:  === (1 of 1) Merging (dev-lang/python-3.10.2_p1::/var/db/repos/gentoo/dev-lang/python/python-3.10.2_p1.ebuild)
+1648269373:  >>> AUTOCLEAN: dev-lang/python:3.10
+1648269373:  === Unmerging... (dev-lang/python-3.10.2_p1)
+1648269374:  >>> unmerge success: dev-lang/python-3.10.2_p1
+1648269376:  === (1 of 1) Post-Build Cleaning (dev-lang/python-3.10.2_p1::/var/db/repos/gentoo/dev-lang/python/python-3.10.2_p1.ebuild)
+1648269376:  ::: completed emerge (1 of 1) dev-lang/python-3.10.2_p1 to /
+1648269376:  *** Finished. Cleaning up...
+1648269376:  *** exiting successfully.
+1648269376:  *** terminating.
+1648270337: Started emerge on: Mar 26, 2022 04:52:16
+1648270337:  *** emerge --verbose-conflicts --newuse --tree --update --ask --autounmask-backtrack=n --backtrack=100 --changed-deps=y --color=y --deep --keep-going --with-bdeps=y --reinstall=changed-use --regex-search-auto=y --verbose @world
+1648270361:  *** exiting unsuccessfully with status '1'.
+1648270361:  *** terminating.
+1648270435: Started emerge on: Mar 26, 2022 04:53:55
+1648270435:  *** emerge --verbose-conflicts --newuse --tree --update --ask --autounmask-backtrack=n --backtrack=100 --changed-deps=y --color=y --deep --keep-going --with-bdeps=y --reinstall=changed-use --regex-search-auto=y --verbose @world
+1648270442:  >>> emerge (1 of 2) dev-lang/python-3.10.2_p1 to /
+1648270442:  === (1 of 2) Cleaning (dev-lang/python-3.10.2_p1::/var/db/repos/gentoo/dev-lang/python/python-3.10.2_p1.ebuild)
+1648270442:  === (1 of 2) Compiling/Merging (dev-lang/python-3.10.2_p1::/var/db/repos/gentoo/dev-lang/python/python-3.10.2_p1.ebuild)
+1648270494:  === (1 of 2) Merging (dev-lang/python-3.10.2_p1::/var/db/repos/gentoo/dev-lang/python/python-3.10.2_p1.ebuild)
+1648270499:  >>> AUTOCLEAN: dev-lang/python:3.10
+1648270499:  === Unmerging... (dev-lang/python-3.10.2_p1)
+1648270500:  >>> unmerge success: dev-lang/python-3.10.2_p1
+1648270502:  === (1 of 2) Post-Build Cleaning (dev-lang/python-3.10.2_p1::/var/db/repos/gentoo/dev-lang/python/python-3.10.2_p1.ebuild)
+1648270502:  ::: completed emerge (1 of 2) dev-lang/python-3.10.2_p1 to /
+1648270502:  >>> emerge (2 of 2) dev-lang/python-3.9.9-r1 to /
+1648270502:  === (2 of 2) Cleaning (dev-lang/python-3.9.9-r1::/var/db/repos/gentoo/dev-lang/python/python-3.9.9-r1.ebuild)
+1648270502:  === (2 of 2) Compiling/Merging (dev-lang/python-3.9.9-r1::/var/db/repos/gentoo/dev-lang/python/python-3.9.9-r1.ebuild)
+1648270553:  === (2 of 2) Merging (dev-lang/python-3.9.9-r1::/var/db/repos/gentoo/dev-lang/python/python-3.9.9-r1.ebuild)
+1648270558:  >>> AUTOCLEAN: dev-lang/python:3.9
+1648270558:  === Unmerging... (dev-lang/python-3.9.9-r1)
+1648270560:  >>> unmerge success: dev-lang/python-3.9.9-r1
+1648270561:  === (2 of 2) Post-Build Cleaning (dev-lang/python-3.9.9-r1::/var/db/repos/gentoo/dev-lang/python/python-3.9.9-r1.ebuild)
+1648270561:  ::: completed emerge (2 of 2) dev-lang/python-3.9.9-r1 to /
+1648270561:  *** Finished. Cleaning up...
+1648270561:  *** exiting successfully.
+1648270561:  *** terminating.
+1648270572: Started emerge on: Mar 26, 2022 04:56:12
+1648270572:  *** emerge --ask --regex-search-auto=y --verbose --depclean
+1648270572:  >>> depclean
+1648270586: === Unmerging... (app-text/manpager-1)
+1648270587:  >>> unmerge success: app-text/manpager-1
+1648270587: === Unmerging... (sys-auth/passwdqc-2.0.2-r1)
+1648270587:  >>> unmerge success: sys-auth/passwdqc-2.0.2-r1
+1648270587: === Unmerging... (dev-libs/libsodium-1.0.18_p20210617)
+1648270588:  >>> unmerge success: dev-libs/libsodium-1.0.18_p20210617
+1648270588: === Unmerging... (virtual/acl-0-r2)
+1648270589:  >>> unmerge success: virtual/acl-0-r2
+1648270589: === Unmerging... (dev-db/sqlite-3.37.2)
+1648270589:  >>> unmerge success: dev-db/sqlite-3.37.2
+1648270589: === Unmerging... (net-firewall/iptables-1.8.7)
+1648270590:  >>> unmerge success: net-firewall/iptables-1.8.7
+1648270590: === Unmerging... (dev-lang/tcl-8.6.12)
+1648270591:  >>> unmerge success: dev-lang/tcl-8.6.12
+1648270591: === Unmerging... (app-eselect/eselect-iptables-20211203)
+1648270592:  >>> unmerge success: app-eselect/eselect-iptables-20211203
+1648270592:  *** exiting successfully.
+1648270592:  *** terminating.
+1648270614: Started emerge on: Mar 26, 2022 04:56:54
+1648270614:  *** emerge --verbose-conflicts --newuse --tree --update --ask --autounmask-backtrack=n --backtrack=100 --changed-deps=y --color=y --deep --keep-going --with-bdeps=y --reinstall=changed-use --regex-search-auto=y --verbose @world
+1648270618:  *** exiting successfully.
+1648270618:  *** terminating.
+1648273882: Started emerge on: Mar 26, 2022 05:51:21
+1648273882:  *** emerge --ask --regex-search-auto=y --verbose grub
+1648320585:  *** exiting unsuccessfully with status '130'.
+1648320585:  *** terminating.

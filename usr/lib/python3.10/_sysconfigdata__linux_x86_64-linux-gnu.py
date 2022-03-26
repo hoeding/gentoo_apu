@@ -29,7 +29,7 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFIGFILES': 'configure configure.ac acconfig.h pyconfig.h.in '
                 'Makefile.pre.in',
  'CONFIGURE_CFLAGS': '',
- 'CONFIGURE_CFLAGS_NODIST': '-O2 -pipe -fwrapv -std=c99 -Wextra '
+ 'CONFIGURE_CFLAGS_NODIST': '-march=x86-64 -O3 -pipe -fwrapv -std=c99 -Wextra '
                             '-Wno-unused-result -Wno-unused-parameter '
                             '-Wno-missing-field-initializers '
                             '-Wstrict-prototypes '
@@ -538,11 +538,15 @@ build_time_vars = {'ABIFLAGS': '',
                    '/usr/include/python3.10',
  'INCLUDEDIR': '/usr/include',
  'INCLUDEPY': '/usr/include/python3.10',
- 'INSTALL': '/usr/bin/install -c',
- 'INSTALL_DATA': '/usr/bin/install -c -m 644',
- 'INSTALL_PROGRAM': '/usr/bin/install -c',
- 'INSTALL_SCRIPT': '/usr/bin/install -c',
- 'INSTALL_SHARED': '/usr/bin/install -c -m 755',
+ 'INSTALL': '/usr/lib/portage/python3.10/ebuild-helpers/xattr/install -c',
+ 'INSTALL_DATA': '/usr/lib/portage/python3.10/ebuild-helpers/xattr/install -c '
+                 '-m 644',
+ 'INSTALL_PROGRAM': '/usr/lib/portage/python3.10/ebuild-helpers/xattr/install '
+                    '-c',
+ 'INSTALL_SCRIPT': '/usr/lib/portage/python3.10/ebuild-helpers/xattr/install '
+                   '-c',
+ 'INSTALL_SHARED': '/usr/lib/portage/python3.10/ebuild-helpers/xattr/install '
+                   '-c -m 755',
  'INSTSONAME': 'libpython3.10.so.1.0',
  'IO_H': 'Modules/_io/_iomodule.h',
  'IO_OBJS': '\\',
@@ -650,8 +654,8 @@ build_time_vars = {'ABIFLAGS': '',
  'PYTHON_HEADERS': '\\',
  'PYTHON_OBJS': '\\',
  'PY_BUILTIN_HASHLIB_HASHES': '"md5,sha1,sha256,sha512,sha3,blake2"',
- 'PY_BUILTIN_MODULE_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -O2 '
-                             '-pipe -fwrapv -std=c99 -Wextra '
+ 'PY_BUILTIN_MODULE_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG '
+                             '-march=x86-64 -O3 -pipe -fwrapv -std=c99 -Wextra '
                              '-Wno-unused-result -Wno-unused-parameter '
                              '-Wno-missing-field-initializers '
                              '-Wstrict-prototypes '
@@ -660,14 +664,14 @@ build_time_vars = {'ABIFLAGS': '',
                              '-I./Include -I/usr/include/ncursesw -fPIC '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG',
- 'PY_CFLAGS_NODIST': '-O2 -pipe -fwrapv -std=c99 -Wextra -Wno-unused-result '
-                     '-Wno-unused-parameter -Wno-missing-field-initializers '
-                     '-Wstrict-prototypes '
+ 'PY_CFLAGS_NODIST': '-march=x86-64 -O3 -pipe -fwrapv -std=c99 -Wextra '
+                     '-Wno-unused-result -Wno-unused-parameter '
+                     '-Wno-missing-field-initializers -Wstrict-prototypes '
                      '-Werror=implicit-function-declaration '
                      '-fvisibility=hidden  -I./Include/internal',
  'PY_COERCE_C_LOCALE': 1,
- 'PY_CORE_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -O2 -pipe '
-                   '-fwrapv -std=c99 -Wextra -Wno-unused-result '
+ 'PY_CORE_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -march=x86-64 '
+                   '-O3 -pipe -fwrapv -std=c99 -Wextra -Wno-unused-result '
                    '-Wno-unused-parameter -Wno-missing-field-initializers '
                    '-Wstrict-prototypes -Werror=implicit-function-declaration '
                    '-fvisibility=hidden  -I./Include/internal -I. -I./Include '
@@ -680,10 +684,10 @@ build_time_vars = {'ABIFLAGS': '',
  'PY_LDFLAGS_NODIST': '-Wl,-O1 -Wl,--as-needed',
  'PY_SSL_DEFAULT_CIPHERS': 1,
  'PY_SSL_DEFAULT_CIPHER_STRING': 0,
- 'PY_STDMODULE_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -O2 -pipe '
-                        '-fwrapv -std=c99 -Wextra -Wno-unused-result '
-                        '-Wno-unused-parameter -Wno-missing-field-initializers '
-                        '-Wstrict-prototypes '
+ 'PY_STDMODULE_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG '
+                        '-march=x86-64 -O3 -pipe -fwrapv -std=c99 -Wextra '
+                        '-Wno-unused-result -Wno-unused-parameter '
+                        '-Wno-missing-field-initializers -Wstrict-prototypes '
                         '-Werror=implicit-function-declaration '
                         '-fvisibility=hidden  -I./Include/internal -I. '
                         '-I./Include -I/usr/include/ncursesw -fPIC',

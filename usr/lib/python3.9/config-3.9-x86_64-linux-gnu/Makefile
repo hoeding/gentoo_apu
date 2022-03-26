@@ -65,7 +65,7 @@ SHELL=		/bin/sh
 LN=		ln
 
 # Portable install script (configure doesn't always guess right)
-INSTALL=	/usr/bin/install -c
+INSTALL=	/usr/lib/portage/python3.10/ebuild-helpers/xattr/install -c
 INSTALL_PROGRAM=${INSTALL}
 INSTALL_SCRIPT= ${INSTALL}
 INSTALL_DATA=	${INSTALL} -m 644
@@ -81,7 +81,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG 
 BASECFLAGS=	 -Wno-unused-result -Wsign-compare
 BASECPPFLAGS=	
-CONFIGURE_CFLAGS=	-O2 -pipe -fwrapv
+CONFIGURE_CFLAGS=	-march=x86-64 -O3 -pipe -fwrapv
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -213,7 +213,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/usr' '--build=x86_64-pc-linux-gnu' '--host=x86_64-pc-linux-gnu' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--datadir=/usr/share' '--sysconfdir=/etc' '--localstatedir=/var/lib' '--docdir=/usr/share/doc/python-3.9.9-r1' '--htmldir=/usr/share/doc/python-3.9.9-r1/html' '--libdir=/usr/lib64' 'ac_cv_header_stropts_h=no' '--enable-shared' '--enable-ipv6' '--infodir=${prefix}/share/info' '--mandir=${prefix}/share/man' '--with-computed-gotos' '--with-dbmliborder=gdbm' '--with-libc=' '--enable-loadable-sqlite-extensions' '--without-ensurepip' '--with-system-expat' '--with-system-ffi' '--without-lto' '--disable-optimizations' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=x86_64-pc-linux-gnu' 'CFLAGS=-O2 -pipe -fwrapv' 'LDFLAGS=-Wl,-O1 -Wl,--as-needed' 'CPPFLAGS= -I/usr/include/ncursesw'
+CONFIG_ARGS=	 '--prefix=/usr' '--build=x86_64-pc-linux-gnu' '--host=x86_64-pc-linux-gnu' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--datadir=/usr/share' '--sysconfdir=/etc' '--localstatedir=/var/lib' '--docdir=/usr/share/doc/python-3.9.9-r1' '--htmldir=/usr/share/doc/python-3.9.9-r1/html' '--libdir=/usr/lib64' 'ac_cv_header_stropts_h=no' '--enable-shared' '--enable-ipv6' '--infodir=${prefix}/share/info' '--mandir=${prefix}/share/man' '--with-computed-gotos' '--with-dbmliborder=gdbm' '--with-libc=' '--enable-loadable-sqlite-extensions' '--without-ensurepip' '--with-system-expat' '--with-system-ffi' '--without-lto' '--disable-optimizations' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=x86_64-pc-linux-gnu' 'CFLAGS=-march=x86-64 -O3 -pipe -fwrapv' 'LDFLAGS=-Wl,-O1 -Wl,--as-needed' 'CPPFLAGS= -I/usr/include/ncursesw'
 
 
 # Subdirectories with code
@@ -1562,30 +1562,30 @@ libinstall:	build_all $(srcdir)/Modules/xxmodule.c
 	fi
 	-PYTHONPATH=$(DESTDIR)$(LIBDEST)  $(RUNSHARED) \
 		$(PYTHON_FOR_BUILD) -Wi $(DESTDIR)$(LIBDEST)/compileall.py \
-		-j17 -d $(LIBDEST) -f \
+		-j12 -d $(LIBDEST) -f \
 		-x 'bad_coding|badsyntax|site-packages|lib2to3/tests/data' \
 		$(DESTDIR)$(LIBDEST)
 	-PYTHONPATH=$(DESTDIR)$(LIBDEST) $(RUNSHARED) \
 		$(PYTHON_FOR_BUILD) -Wi -O $(DESTDIR)$(LIBDEST)/compileall.py \
-		-j17 -d $(LIBDEST) -f \
+		-j12 -d $(LIBDEST) -f \
 		-x 'bad_coding|badsyntax|site-packages|lib2to3/tests/data' \
 		$(DESTDIR)$(LIBDEST)
 	-PYTHONPATH=$(DESTDIR)$(LIBDEST) $(RUNSHARED) \
 		$(PYTHON_FOR_BUILD) -Wi -OO $(DESTDIR)$(LIBDEST)/compileall.py \
-		-j17 -d $(LIBDEST) -f \
+		-j12 -d $(LIBDEST) -f \
 		-x 'bad_coding|badsyntax|site-packages|lib2to3/tests/data' \
 		$(DESTDIR)$(LIBDEST)
 	-PYTHONPATH=$(DESTDIR)$(LIBDEST) $(RUNSHARED) \
 		$(PYTHON_FOR_BUILD) -Wi $(DESTDIR)$(LIBDEST)/compileall.py \
-		-j17 -d $(LIBDEST)/site-packages -f \
+		-j12 -d $(LIBDEST)/site-packages -f \
 		-x badsyntax $(DESTDIR)$(LIBDEST)/site-packages
 	-PYTHONPATH=$(DESTDIR)$(LIBDEST) $(RUNSHARED) \
 		$(PYTHON_FOR_BUILD) -Wi -O $(DESTDIR)$(LIBDEST)/compileall.py \
-		-j17 -d $(LIBDEST)/site-packages -f \
+		-j12 -d $(LIBDEST)/site-packages -f \
 		-x badsyntax $(DESTDIR)$(LIBDEST)/site-packages
 	-PYTHONPATH=$(DESTDIR)$(LIBDEST) $(RUNSHARED) \
 		$(PYTHON_FOR_BUILD) -Wi -OO $(DESTDIR)$(LIBDEST)/compileall.py \
-		-j17 -d $(LIBDEST)/site-packages -f \
+		-j12 -d $(LIBDEST)/site-packages -f \
 		-x badsyntax $(DESTDIR)$(LIBDEST)/site-packages
 	-PYTHONPATH=$(DESTDIR)$(LIBDEST) $(RUNSHARED) \
 		$(PYTHON_FOR_BUILD) -m lib2to3.pgen2.driver $(DESTDIR)$(LIBDEST)/lib2to3/Grammar.txt
