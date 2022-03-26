@@ -1401,3 +1401,14 @@
 1648261358:  *** emerge --verbose-conflicts --newuse --tree --update --ask --autounmask-backtrack=n --backtrack=100 --changed-deps=y --color=y --deep --keep-going --with-bdeps=y --reinstall=changed-use --regex-search-auto=y --verbose @world
 1648261362:  *** exiting successfully.
 1648261362:  *** terminating.
+1648261414: Started emerge on: Mar 26, 2022 02:23:33
+1648261414:  *** emerge --ask --regex-search-auto=y --verbose --depclean
+1648261414:  >>> depclean
+1648261431: === Unmerging... (dev-python/importlib_metadata-4.11.2)
+1648261433:  >>> unmerge success: dev-python/importlib_metadata-4.11.2
+1648261433: === Unmerging... (app-editors/nano-5.9)
+1648261434:  >>> unmerge success: app-editors/nano-5.9
+1648261434: === Unmerging... (dev-python/zipp-3.7.0-r1)
+1648261435:  >>> unmerge success: dev-python/zipp-3.7.0-r1
+1648261435:  *** exiting successfully.
+1648261435:  *** terminating.

@@ -1,0 +1,248 @@
+#acl
+app-arch/tar acl
+net-misc/rsync acl
+sys-apps/coreutils acl
+sys-apps/sed acl
+sys-apps/shadow acl
+app-editors/vim acl
+app-editors/vim-core acl
+sys-devel/gettext acl
+sys-fs/udev acl
+#arp
+sys-apps/net-tools arp
+#arping
+net-misc/iputils arping
+#asm
+dev-libs/libsodium asm
+dev-libs/libgcrypt asm
+dev-libs/gmp asm
+dev-libs/openssl asm
+#berkdb
+sys-libs/gdbm berkdb
+#bzip2
+app-arch/unzip bzip2
+dev-libs/libpcre bzip2
+dev-libs/libpcre2 bzip2
+sys-apps/file bzip2
+app-crypt/gnupg bzip2
+#cramfs
+sys-apps/util-linux cramfs
+#crypt
+dev-libs/libxslt crypt
+app-editors/vim crypt
+#cxx
+sys-libs/ncurses cxx
+net-libs/gnutls cxx
+dev-libs/gmp cxx
+sys-devel/gettext cxx
+dev-libs/libpcre cxx
+app-crypt/gpgme cxx
+#extra-filters
+app-arch/xz extra-filters
+app-arch/xz-utils extra-filters
+#filecaps
+sys-libs/pam filecaps
+net-misc/iputils filecaps
+#fortran
+sys-devel/gcc fortran
+#ftp
+net-misc/curl ftp
+#gdbm
+dev-lang/python gdbm
+dev-lang/perl gdbm
+sys-apps/man-db gdbm
+#gold
+sys-devel/binutils gold
+#gpg
+app-portage/gemato gpg
+#hardlink
+sys-apps/util-linux hardlink
+#hostname
+sys-apps/net-tools hostname
+#http2
+net-misc/curl http2
+#iconv
+net-misc/rsync iconv
+#idn
+net-libs/gnutls idn
+#imap
+net-misc/curl imap
+#installkernel
+sys-apps/debianutils installkernel
+#iptables
+sys-apps/iproute2 iptables
+#jit
+dev-libs/libpcre jit
+dev-libs/libpcre2 jit
+#kill
+sys-process/procps kill
+#kmod
+sys-fs/udev kmod
+#logger
+sys-apps/util-linux logger
+#lua_single_target
+app-editors/vim lua_single_target_lua5-1
+#lzma
+sys-apps/kmod lzma
+#manpager
+sys-apps/man-db manpager
+#multiarch
+sys-libs/glibc multiarch
+#native-extensions
+sys-apps/portage native-extensions
+#net
+app-shells/bash net
+#ncurses
+sys-apps/openrc ncurses
+app-crypt/pinentry ncurses
+dev-lang/python ncurses
+sys-apps/util-linux ncurses
+sys-devel/gettext ncurses
+sys-process/procps ncurses
+#netifrc
+sys-apps/openrc netifrc
+#nls enabled on default install
+#nptl
+sys-devel/gcc nptl
+#nullok
+sys-auth/pambase nullok
+#openmp
+sys-devel/gcc openmp
+sys-devel/gettext openmp
+app-portage/portage-utils openmp
+app-crypt/libb2 openmp
+#openssl
+net-libs/gnutls openssl
+net-misc/curl openssl
+#pam
+net-misc/openssh pam
+sys-apps/openrc pam
+sys-apps/shadow pam
+sys-apps/util-linux pam
+sys-libs/libcap pam
+sys-apps/kbd pam
+#passwdqc
+sys-auth/pambase passwdqc #hunter2
+#pcre
+sys-apps/grep pcre
+sys-apps/less pcre
+dev-libs/libpcre2 pcre16
+net-misc/wget pcre
+#pie
+net-misc/openssh pie
+sys-libs/glibc pie
+#plugins
+sys-devel/binutils plugins
+#pop3
+net-misc/curl pop3
+#progress-meter
+net-misc/curl progress-meter
+#python
+dev-libs/libxml2 python
+#python3_10
+sys-apps/file python_targets_python3_10
+sys-apps/kmod python_targets_python3_10
+sys-apps/util-linux python_targets_python3_10
+sys-apps/kmod python_targets_python3_10
+app-misc/pax-utils python_targets_python3_10 python_single_target_python3_10
+dev-lang/python-exec-conf python_targets_python3_10
+app-portage/gemato python_targets_python3_10
+app-editors/vim python_targets_python3_10
+dev-python/appdirs python_targets_python3_10
+dev-python/jaraco-context python_targets_python3_10
+dev-python/jaraco-functools python_targets_python3_10
+dev-python/jaraco-text python_targets_python3_10
+dev-python/more-itertools python_targets_python3_10
+dev-python/requests python_targets_python3_10
+dev-python/charset_normalizer python_targets_python3_10
+dev-python/idna python_targets_python3_10
+dev-python/urllib3 python_targets_python3_10
+dev-python/PySocks python_targets_python3_10
+dev-libs/libxml2 python_targets_python3_10
+sys-libs/libseccomp python_targets_python3_10
+app-crypt/gpgme python_targets_python3_10
+#qmanifest
+app-portage/portage-utils qmanifest
+#qtegrity
+app-portage/portage-utils qtegrity
+#readline
+app-shells/bash readline
+sys-apps/util-linux readline
+dev-lang/python readline
+sys-apps/gawk readline
+dev-db/sqlite readline
+dev-libs/libxml2 readline
+dev-libs/libpcre2 readline
+dev-libs/libpcre readline
+sys-libs/gdbm readline
+app-crypt/gnupg readline
+#rsync-verify
+sys-apps/portage rsync-verify
+#sanitize
+sys-devel/gcc sanitize
+#scp
+net-misc/openssh scp
+#seccomp
+app-misc/pax-utils seccomp
+net-libs/gnutls seccomp
+sys-apps/file seccomp
+sys-apps/man-db seccomp
+#sha512
+sys-auth/pambase sha512
+#smartcard
+app-crypt/gnupg smartcard
+#smtp
+net-misc/curl smtp
+#ssl
+net-misc/rsync ssl
+dev-lang/python ssl
+net-misc/openssh ssl
+net-misc/curl ssl curl_ssl_openssl
+app-crypt/gnupg ssl
+net-misc/iputils ssl
+#sqlite
+dev-lang/python sqlite
+#ssp
+sys-devel/gcc ssp
+sys-libs/glibc ssp
+#standalone
+sys-apps/texinfo standalone
+#su
+sys-apps/util-linux su
+#sudo
+sys-apps/util-linux sudo
+#suid
+sys-apps/util-linux suid
+#tftp
+net-misc/curl tftp
+#threads
+sys-fs/e2fsprogs threads
+app-arch/zstd threads
+dev-lang/tcl threads
+net-libs/nghttp2 threads
+#tls-heartbeat
+net-libs/gnutls tls-heartbeat
+#unicode
+sys-apps/openrc unicode
+#urandom
+dev-libs/libsodium urandom
+#xattr
+sys-devel/patch xattr
+app-arch/tar xattr
+net-misc/rsync xattr
+sys-apps/coreutils xattr
+sys-apps/shadow xattr
+sys-apps/portage xattr
+#xml
+dev-lang/python xml
+#zlib
+sys-apps/kmod zlib
+net-misc/wget zlib
+dev-libs/libpcre zlib
+dev-libs/libpcre2 zlib
+sys-apps/file zlib
+sys-apps/man-db zlib
+#zstd
+sys-apps/kmod zstd
+net-misc/rsync zstd
+sys-devel/gcc zstd
