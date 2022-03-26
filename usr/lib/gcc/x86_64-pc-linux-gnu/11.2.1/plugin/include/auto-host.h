@@ -2156,7 +2156,7 @@
 
 /* Define if you have a working <zstd.h> header file. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_ZSTD_H */
+#define HAVE_ZSTD_H 1
 #endif
 
 
