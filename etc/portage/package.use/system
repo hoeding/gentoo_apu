@@ -67,6 +67,8 @@ net-misc/rsync iconv
 net-libs/gnutls idn
 #imap
 #net-misc/curl imap #base
+#initramfs
+sys-kernel/linux-firmware initramfs
 #installkernel
 sys-apps/debianutils installkernel
 #iptables
@@ -176,6 +178,8 @@ dev-libs/libpcre2 readline
 dev-libs/libpcre readline
 sys-libs/gdbm readline
 app-crypt/gnupg readline
+#redistributable
+sys-kernel/linux-firmware redistributable
 #rsync-verify
 sys-apps/portage rsync-verify
 #sanitize
@@ -220,6 +224,7 @@ sys-fs/e2fsprogs threads
 app-arch/zstd threads
 dev-lang/tcl threads
 net-libs/nghttp2 threads
+dev-vcs/git threads
 #tls-heartbeat
 net-libs/gnutls tls-heartbeat
 #unicode

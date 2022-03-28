@@ -1,1 +1,10 @@
 app-editors/vim
+app-portage/gentoolkit
+dev-vcs/git
+sys-apps/pciutils
+sys-apps/usbutils
+sys-boot/grub
+sys-kernel/genkernel
+sys-kernel/gentoo-kernel-bin
+sys-kernel/linux-firmware
+sys-libs/timezone-data

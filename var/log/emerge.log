@@ -1847,3 +1847,233 @@
 1648273882:  *** emerge --ask --regex-search-auto=y --verbose grub
 1648320585:  *** exiting unsuccessfully with status '130'.
 1648320585:  *** terminating.
+1648326627: Started emerge on: Mar 26, 2022 20:30:27
+1648326627:  *** emerge --ask --regex-search-auto=y --verbose grub
+1648326643:  >>> emerge (1 of 5) sys-apps/hwdata-0.354 to /
+1648326651:  === (1 of 5) Cleaning (sys-apps/hwdata-0.354::/var/db/repos/gentoo/sys-apps/hwdata/hwdata-0.354.ebuild)
+1648326652:  === (1 of 5) Compiling/Merging (sys-apps/hwdata-0.354::/var/db/repos/gentoo/sys-apps/hwdata/hwdata-0.354.ebuild)
+1648326655:  === (1 of 5) Merging (sys-apps/hwdata-0.354::/var/db/repos/gentoo/sys-apps/hwdata/hwdata-0.354.ebuild)
+1648326656:  >>> AUTOCLEAN: sys-apps/hwdata:0
+1648326657:  === (1 of 5) Post-Build Cleaning (sys-apps/hwdata-0.354::/var/db/repos/gentoo/sys-apps/hwdata/hwdata-0.354.ebuild)
+1648326657:  ::: completed emerge (1 of 5) sys-apps/hwdata-0.354 to /
+1648326657:  >>> emerge (2 of 5) sys-apps/pciutils-3.7.0-r2 to /
+1648326657:  === (2 of 5) Cleaning (sys-apps/pciutils-3.7.0-r2::/var/db/repos/gentoo/sys-apps/pciutils/pciutils-3.7.0-r2.ebuild)
+1648326657:  === (2 of 5) Compiling/Merging (sys-apps/pciutils-3.7.0-r2::/var/db/repos/gentoo/sys-apps/pciutils/pciutils-3.7.0-r2.ebuild)
+1648326660:  === (2 of 5) Merging (sys-apps/pciutils-3.7.0-r2::/var/db/repos/gentoo/sys-apps/pciutils/pciutils-3.7.0-r2.ebuild)
+1648326661:  >>> AUTOCLEAN: sys-apps/pciutils:0
+1648326662:  === (2 of 5) Post-Build Cleaning (sys-apps/pciutils-3.7.0-r2::/var/db/repos/gentoo/sys-apps/pciutils/pciutils-3.7.0-r2.ebuild)
+1648326662:  ::: completed emerge (2 of 5) sys-apps/pciutils-3.7.0-r2 to /
+1648326662:  >>> emerge (3 of 5) sys-libs/efivar-37 to /
+1648326662:  === (3 of 5) Cleaning (sys-libs/efivar-37::/var/db/repos/gentoo/sys-libs/efivar/efivar-37.ebuild)
+1648326662:  === (3 of 5) Compiling/Merging (sys-libs/efivar-37::/var/db/repos/gentoo/sys-libs/efivar/efivar-37.ebuild)
+1648326666:  === (3 of 5) Merging (sys-libs/efivar-37::/var/db/repos/gentoo/sys-libs/efivar/efivar-37.ebuild)
+1648326667:  >>> AUTOCLEAN: sys-libs/efivar:0
+1648326668:  === (3 of 5) Post-Build Cleaning (sys-libs/efivar-37::/var/db/repos/gentoo/sys-libs/efivar/efivar-37.ebuild)
+1648326668:  ::: completed emerge (3 of 5) sys-libs/efivar-37 to /
+1648326668:  >>> emerge (4 of 5) sys-boot/efibootmgr-17 to /
+1648326668:  === (4 of 5) Cleaning (sys-boot/efibootmgr-17::/var/db/repos/gentoo/sys-boot/efibootmgr/efibootmgr-17.ebuild)
+1648326668:  === (4 of 5) Compiling/Merging (sys-boot/efibootmgr-17::/var/db/repos/gentoo/sys-boot/efibootmgr/efibootmgr-17.ebuild)
+1648326671:  === (4 of 5) Merging (sys-boot/efibootmgr-17::/var/db/repos/gentoo/sys-boot/efibootmgr/efibootmgr-17.ebuild)
+1648326672:  >>> AUTOCLEAN: sys-boot/efibootmgr:0
+1648326672:  === (4 of 5) Post-Build Cleaning (sys-boot/efibootmgr-17::/var/db/repos/gentoo/sys-boot/efibootmgr/efibootmgr-17.ebuild)
+1648326672:  ::: completed emerge (4 of 5) sys-boot/efibootmgr-17 to /
+1648326672:  >>> emerge (5 of 5) sys-boot/grub-2.06-r1 to /
+1648326672:  === (5 of 5) Cleaning (sys-boot/grub-2.06-r1::/var/db/repos/gentoo/sys-boot/grub/grub-2.06-r1.ebuild)
+1648326672:  === (5 of 5) Compiling/Merging (sys-boot/grub-2.06-r1::/var/db/repos/gentoo/sys-boot/grub/grub-2.06-r1.ebuild)
+1648326728:  === (5 of 5) Merging (sys-boot/grub-2.06-r1::/var/db/repos/gentoo/sys-boot/grub/grub-2.06-r1.ebuild)
+1648326729:  >>> AUTOCLEAN: sys-boot/grub:2
+1648326733:  === (5 of 5) Updating world file (sys-boot/grub-2.06-r1)
+1648326733:  === (5 of 5) Post-Build Cleaning (sys-boot/grub-2.06-r1::/var/db/repos/gentoo/sys-boot/grub/grub-2.06-r1.ebuild)
+1648326733:  ::: completed emerge (5 of 5) sys-boot/grub-2.06-r1 to /
+1648326733:  *** Finished. Cleaning up...
+1648326733:  *** exiting successfully.
+1648326734:  *** terminating.
+1648326865: Started emerge on: Mar 26, 2022 20:34:24
+1648326865:  *** emerge --verbose-conflicts --newuse --tree --update --ask --autounmask-backtrack=n --backtrack=100 --changed-deps=y --color=y --deep --keep-going --with-bdeps=y --reinstall=changed-use --regex-search-auto=y --verbose @world
+1648326869:  *** exiting successfully.
+1648326869:  *** terminating.
+1648326884: Started emerge on: Mar 26, 2022 20:34:43
+1648326884:  *** emerge --ask --regex-search-auto=y --verbose --depclean
+1648326884:  >>> depclean
+1648326885:  *** exiting successfully.
+1648326885:  *** terminating.
+1648332914: Started emerge on: Mar 26, 2022 22:15:14
+1648332914:  *** emerge --ask --regex-search-auto=y --verbose gentoo-kernel-bin
+1648332918:  *** exiting unsuccessfully with status '130'.
+1648332918:  *** terminating.
+1648332937: Started emerge on: Mar 26, 2022 22:15:37
+1648332937:  *** emerge --ask --regex-search-auto=y --verbose gentoo-kernel-bin genkernel gentoolkit
+1648332961:  >>> emerge (1 of 8) app-arch/cpio-2.12-r1 to /
+1648332961:  === (1 of 8) Cleaning (app-arch/cpio-2.12-r1::/var/db/repos/gentoo/app-arch/cpio/cpio-2.12-r1.ebuild)
+1648332961:  === (1 of 8) Compiling/Merging (app-arch/cpio-2.12-r1::/var/db/repos/gentoo/app-arch/cpio/cpio-2.12-r1.ebuild)
+1648332990:  === (1 of 8) Merging (app-arch/cpio-2.12-r1::/var/db/repos/gentoo/app-arch/cpio/cpio-2.12-r1.ebuild)
+1648332991:  >>> AUTOCLEAN: app-arch/cpio:0
+1648332998:  === (1 of 8) Post-Build Cleaning (app-arch/cpio-2.12-r1::/var/db/repos/gentoo/app-arch/cpio/cpio-2.12-r1.ebuild)
+1648332998:  ::: completed emerge (1 of 8) app-arch/cpio-2.12-r1 to /
+1648332998:  >>> emerge (2 of 8) dev-libs/elfutils-0.186 to /
+1648332998:  === (2 of 8) Cleaning (dev-libs/elfutils-0.186::/var/db/repos/gentoo/dev-libs/elfutils/elfutils-0.186.ebuild)
+1648332998:  === (2 of 8) Compiling/Merging (dev-libs/elfutils-0.186::/var/db/repos/gentoo/dev-libs/elfutils/elfutils-0.186.ebuild)
+1648333016:  === (2 of 8) Merging (dev-libs/elfutils-0.186::/var/db/repos/gentoo/dev-libs/elfutils/elfutils-0.186.ebuild)
+1648333016:  >>> AUTOCLEAN: dev-libs/elfutils:0
+1648333018:  === (2 of 8) Post-Build Cleaning (dev-libs/elfutils-0.186::/var/db/repos/gentoo/dev-libs/elfutils/elfutils-0.186.ebuild)
+1648333018:  ::: completed emerge (2 of 8) dev-libs/elfutils-0.186 to /
+1648333018:  >>> emerge (3 of 8) sys-devel/bc-1.07.1-r3 to /
+1648333018:  === (3 of 8) Cleaning (sys-devel/bc-1.07.1-r3::/var/db/repos/gentoo/sys-devel/bc/bc-1.07.1-r3.ebuild)
+1648333018:  === (3 of 8) Compiling/Merging (sys-devel/bc-1.07.1-r3::/var/db/repos/gentoo/sys-devel/bc/bc-1.07.1-r3.ebuild)
+1648333024:  === (3 of 8) Merging (sys-devel/bc-1.07.1-r3::/var/db/repos/gentoo/sys-devel/bc/bc-1.07.1-r3.ebuild)
+1648333024:  >>> AUTOCLEAN: sys-devel/bc:0
+1648333025:  === (3 of 8) Post-Build Cleaning (sys-devel/bc-1.07.1-r3::/var/db/repos/gentoo/sys-devel/bc/bc-1.07.1-r3.ebuild)
+1648333025:  ::: completed emerge (3 of 8) sys-devel/bc-1.07.1-r3 to /
+1648333025:  >>> emerge (4 of 8) virtual/libelf-3 to /
+1648333025:  === (4 of 8) Cleaning (virtual/libelf-3::/var/db/repos/gentoo/virtual/libelf/libelf-3.ebuild)
+1648333025:  === (4 of 8) Compiling/Merging (virtual/libelf-3::/var/db/repos/gentoo/virtual/libelf/libelf-3.ebuild)
+1648333027:  === (4 of 8) Merging (virtual/libelf-3::/var/db/repos/gentoo/virtual/libelf/libelf-3.ebuild)
+1648333028:  >>> AUTOCLEAN: virtual/libelf:0
+1648333028:  === (4 of 8) Post-Build Cleaning (virtual/libelf-3::/var/db/repos/gentoo/virtual/libelf/libelf-3.ebuild)
+1648333028:  ::: completed emerge (4 of 8) virtual/libelf-3 to /
+1648333028:  >>> emerge (5 of 8) sys-kernel/genkernel-4.2.6-r2 to /
+1648333028:  === (5 of 8) Cleaning (sys-kernel/genkernel-4.2.6-r2::/var/db/repos/gentoo/sys-kernel/genkernel/genkernel-4.2.6-r2.ebuild)
+1648333029:  === (5 of 8) Compiling/Merging (sys-kernel/genkernel-4.2.6-r2::/var/db/repos/gentoo/sys-kernel/genkernel/genkernel-4.2.6-r2.ebuild)
+1648333032:  === (5 of 8) Merging (sys-kernel/genkernel-4.2.6-r2::/var/db/repos/gentoo/sys-kernel/genkernel/genkernel-4.2.6-r2.ebuild)
+1648333033:  >>> AUTOCLEAN: sys-kernel/genkernel:0
+1648333038:  === (5 of 8) Updating world file (sys-kernel/genkernel-4.2.6-r2)
+1648333038:  === (5 of 8) Post-Build Cleaning (sys-kernel/genkernel-4.2.6-r2::/var/db/repos/gentoo/sys-kernel/genkernel/genkernel-4.2.6-r2.ebuild)
+1648333038:  ::: completed emerge (5 of 8) sys-kernel/genkernel-4.2.6-r2 to /
+1648333038:  >>> emerge (6 of 8) app-portage/gentoolkit-0.5.1-r1 to /
+1648333038:  === (6 of 8) Cleaning (app-portage/gentoolkit-0.5.1-r1::/var/db/repos/gentoo/app-portage/gentoolkit/gentoolkit-0.5.1-r1.ebuild)
+1648333038:  === (6 of 8) Compiling/Merging (app-portage/gentoolkit-0.5.1-r1::/var/db/repos/gentoo/app-portage/gentoolkit/gentoolkit-0.5.1-r1.ebuild)
+1648333042:  === (6 of 8) Merging (app-portage/gentoolkit-0.5.1-r1::/var/db/repos/gentoo/app-portage/gentoolkit/gentoolkit-0.5.1-r1.ebuild)
+1648333043:  >>> AUTOCLEAN: app-portage/gentoolkit:0
+1648333044:  === (6 of 8) Updating world file (app-portage/gentoolkit-0.5.1-r1)
+1648333044:  === (6 of 8) Post-Build Cleaning (app-portage/gentoolkit-0.5.1-r1::/var/db/repos/gentoo/app-portage/gentoolkit/gentoolkit-0.5.1-r1.ebuild)
+1648333044:  ::: completed emerge (6 of 8) app-portage/gentoolkit-0.5.1-r1 to /
+1648333044:  >>> emerge (7 of 8) sys-kernel/gentoo-kernel-bin-5.15.29 to /
+1648333044:  === (7 of 8) Cleaning (sys-kernel/gentoo-kernel-bin-5.15.29::/var/db/repos/gentoo/sys-kernel/gentoo-kernel-bin/gentoo-kernel-bin-5.15.29.ebuild)
+1648333045:  === (7 of 8) Compiling/Merging (sys-kernel/gentoo-kernel-bin-5.15.29::/var/db/repos/gentoo/sys-kernel/gentoo-kernel-bin/gentoo-kernel-bin-5.15.29.ebuild)
+1648333107:  === (7 of 8) Merging (sys-kernel/gentoo-kernel-bin-5.15.29::/var/db/repos/gentoo/sys-kernel/gentoo-kernel-bin/gentoo-kernel-bin-5.15.29.ebuild)
+1648333114:  >>> AUTOCLEAN: sys-kernel/gentoo-kernel-bin:5.15.29
+1648333125:  === (7 of 8) Updating world file (sys-kernel/gentoo-kernel-bin-5.15.29)
+1648333125:  === (7 of 8) Post-Build Cleaning (sys-kernel/gentoo-kernel-bin-5.15.29::/var/db/repos/gentoo/sys-kernel/gentoo-kernel-bin/gentoo-kernel-bin-5.15.29.ebuild)
+1648333125:  ::: completed emerge (7 of 8) sys-kernel/gentoo-kernel-bin-5.15.29 to /
+1648333125:  >>> emerge (8 of 8) virtual/dist-kernel-5.15.29 to /
+1648333125:  === (8 of 8) Cleaning (virtual/dist-kernel-5.15.29::/var/db/repos/gentoo/virtual/dist-kernel/dist-kernel-5.15.29.ebuild)
+1648333125:  === (8 of 8) Compiling/Merging (virtual/dist-kernel-5.15.29::/var/db/repos/gentoo/virtual/dist-kernel/dist-kernel-5.15.29.ebuild)
+1648333127:  === (8 of 8) Merging (virtual/dist-kernel-5.15.29::/var/db/repos/gentoo/virtual/dist-kernel/dist-kernel-5.15.29.ebuild)
+1648333128:  >>> AUTOCLEAN: virtual/dist-kernel:0
+1648333130:  === (8 of 8) Post-Build Cleaning (virtual/dist-kernel-5.15.29::/var/db/repos/gentoo/virtual/dist-kernel/dist-kernel-5.15.29.ebuild)
+1648333130:  ::: completed emerge (8 of 8) virtual/dist-kernel-5.15.29 to /
+1648333130:  *** Finished. Cleaning up...
+1648333131:  *** exiting successfully.
+1648333131:  *** terminating.
+1648457093: Started emerge on: Mar 28, 2022 08:44:53
+1648457093:  *** emerge --ask --regex-search-auto=y --verbose timezone-data
+1648457101:  >>> emerge (1 of 1) sys-libs/timezone-data-2021e to /
+1648457101:  === (1 of 1) Cleaning (sys-libs/timezone-data-2021e::/var/db/repos/gentoo/sys-libs/timezone-data/timezone-data-2021e.ebuild)
+1648457105:  === (1 of 1) Compiling/Merging (sys-libs/timezone-data-2021e::/var/db/repos/gentoo/sys-libs/timezone-data/timezone-data-2021e.ebuild)
+1648457109:  === (1 of 1) Merging (sys-libs/timezone-data-2021e::/var/db/repos/gentoo/sys-libs/timezone-data/timezone-data-2021e.ebuild)
+1648457110:  >>> AUTOCLEAN: sys-libs/timezone-data:0
+1648457110:  === Unmerging... (sys-libs/timezone-data-2021e)
+1648457111:  >>> unmerge success: sys-libs/timezone-data-2021e
+1648457112:  === (1 of 1) Updating world file (sys-libs/timezone-data-2021e)
+1648457112:  === (1 of 1) Post-Build Cleaning (sys-libs/timezone-data-2021e::/var/db/repos/gentoo/sys-libs/timezone-data/timezone-data-2021e.ebuild)
+1648457112:  ::: completed emerge (1 of 1) sys-libs/timezone-data-2021e to /
+1648457112:  *** Finished. Cleaning up...
+1648457112:  *** exiting successfully.
+1648457112:  *** terminating.
+1648457266: Started emerge on: Mar 28, 2022 02:47:46
+1648457266:  *** emerge --ask --regex-search-auto=y --verbose linux-firmware
+1648457373:  *** exiting unsuccessfully with status '130'.
+1648457373:  *** terminating.
+1648457463: Started emerge on: Mar 28, 2022 02:51:02
+1648457463:  *** emerge --ask --regex-search-auto=y --verbose linux-firmware
+1648457463:  *** exiting unsuccessfully with status '1'.
+1648457463:  *** terminating.
+1648457667: Started emerge on: Mar 28, 2022 02:54:27
+1648457667:  *** emerge --ask --regex-search-auto=y --verbose linux-firmware
+1648457668:  *** exiting unsuccessfully with status '1'.
+1648457668:  *** terminating.
+1648457747: Started emerge on: Mar 28, 2022 02:55:47
+1648457747:  *** emerge --ask --regex-search-auto=y --verbose linux-firmware
+1648457748:  *** exiting unsuccessfully with status '1'.
+1648457748:  *** terminating.
+1648457789: Started emerge on: Mar 28, 2022 02:56:29
+1648457789:  *** emerge --ask --regex-search-auto=y --verbose linux-firmware
+1648457801:  >>> emerge (1 of 1) sys-kernel/linux-firmware-20220310 to /
+1648457801:  === (1 of 1) Cleaning (sys-kernel/linux-firmware-20220310::/var/db/repos/gentoo/sys-kernel/linux-firmware/linux-firmware-20220310.ebuild)
+1648457811:  === (1 of 1) Compiling/Merging (sys-kernel/linux-firmware-20220310::/var/db/repos/gentoo/sys-kernel/linux-firmware/linux-firmware-20220310.ebuild)
+1648457830:  === (1 of 1) Merging (sys-kernel/linux-firmware-20220310::/var/db/repos/gentoo/sys-kernel/linux-firmware/linux-firmware-20220310.ebuild)
+1648457833:  >>> AUTOCLEAN: sys-kernel/linux-firmware:0
+1648457876:  === (1 of 1) Updating world file (sys-kernel/linux-firmware-20220310)
+1648457876:  === (1 of 1) Post-Build Cleaning (sys-kernel/linux-firmware-20220310::/var/db/repos/gentoo/sys-kernel/linux-firmware/linux-firmware-20220310.ebuild)
+1648457876:  ::: completed emerge (1 of 1) sys-kernel/linux-firmware-20220310 to /
+1648457876:  *** Finished. Cleaning up...
+1648457876:  *** exiting successfully.
+1648457876:  *** terminating.
+1648458074: Started emerge on: Mar 28, 2022 03:01:14
+1648458074:  *** emerge --regex-search-auto=y pciutils usbutils
+1648458075:  >>> emerge (1 of 5) virtual/libudev-232-r5 to /
+1648458075:  === (1 of 5) Cleaning (virtual/libudev-232-r5::/var/db/repos/gentoo/virtual/libudev/libudev-232-r5.ebuild)
+1648458076:  === (1 of 5) Compiling/Merging (virtual/libudev-232-r5::/var/db/repos/gentoo/virtual/libudev/libudev-232-r5.ebuild)
+1648458078:  === (1 of 5) Merging (virtual/libudev-232-r5::/var/db/repos/gentoo/virtual/libudev/libudev-232-r5.ebuild)
+1648458078:  *** terminating.
+1648458081: Started emerge on: Mar 28, 2022 03:01:20
+1648458081:  *** emerge --ask --regex-search-auto=y --verbose pciutils usbutils
+1648458112:  >>> emerge (1 of 5) virtual/libudev-232-r5 to /
+1648458112:  === (1 of 5) Cleaning (virtual/libudev-232-r5::/var/db/repos/gentoo/virtual/libudev/libudev-232-r5.ebuild)
+1648458112:  === (1 of 5) Compiling/Merging (virtual/libudev-232-r5::/var/db/repos/gentoo/virtual/libudev/libudev-232-r5.ebuild)
+1648458114:  === (1 of 5) Merging (virtual/libudev-232-r5::/var/db/repos/gentoo/virtual/libudev/libudev-232-r5.ebuild)
+1648458115:  >>> AUTOCLEAN: virtual/libudev:0
+1648458116:  === (1 of 5) Post-Build Cleaning (virtual/libudev-232-r5::/var/db/repos/gentoo/virtual/libudev/libudev-232-r5.ebuild)
+1648458116:  ::: completed emerge (1 of 5) virtual/libudev-232-r5 to /
+1648458116:  >>> emerge (2 of 5) sys-apps/pciutils-3.7.0-r2 to /
+1648458116:  === (2 of 5) Cleaning (sys-apps/pciutils-3.7.0-r2::/var/db/repos/gentoo/sys-apps/pciutils/pciutils-3.7.0-r2.ebuild)
+1648458116:  === (2 of 5) Compiling/Merging (sys-apps/pciutils-3.7.0-r2::/var/db/repos/gentoo/sys-apps/pciutils/pciutils-3.7.0-r2.ebuild)
+1648458119:  === (2 of 5) Merging (sys-apps/pciutils-3.7.0-r2::/var/db/repos/gentoo/sys-apps/pciutils/pciutils-3.7.0-r2.ebuild)
+1648458119:  >>> AUTOCLEAN: sys-apps/pciutils:0
+1648458119:  === Unmerging... (sys-apps/pciutils-3.7.0-r2)
+1648458120:  >>> unmerge success: sys-apps/pciutils-3.7.0-r2
+1648458121:  === (2 of 5) Updating world file (sys-apps/pciutils-3.7.0-r2)
+1648458121:  === (2 of 5) Post-Build Cleaning (sys-apps/pciutils-3.7.0-r2::/var/db/repos/gentoo/sys-apps/pciutils/pciutils-3.7.0-r2.ebuild)
+1648458121:  ::: completed emerge (2 of 5) sys-apps/pciutils-3.7.0-r2 to /
+1648458121:  >>> emerge (3 of 5) dev-libs/libusb-1.0.24-r2 to /
+1648458121:  === (3 of 5) Cleaning (dev-libs/libusb-1.0.24-r2::/var/db/repos/gentoo/dev-libs/libusb/libusb-1.0.24-r2.ebuild)
+1648458121:  === (3 of 5) Compiling/Merging (dev-libs/libusb-1.0.24-r2::/var/db/repos/gentoo/dev-libs/libusb/libusb-1.0.24-r2.ebuild)
+1648458128:  === (3 of 5) Merging (dev-libs/libusb-1.0.24-r2::/var/db/repos/gentoo/dev-libs/libusb/libusb-1.0.24-r2.ebuild)
+1648458128:  >>> AUTOCLEAN: dev-libs/libusb:1
+1648458129:  === (3 of 5) Post-Build Cleaning (dev-libs/libusb-1.0.24-r2::/var/db/repos/gentoo/dev-libs/libusb/libusb-1.0.24-r2.ebuild)
+1648458129:  ::: completed emerge (3 of 5) dev-libs/libusb-1.0.24-r2 to /
+1648458129:  >>> emerge (4 of 5) virtual/libusb-1-r2 to /
+1648458129:  === (4 of 5) Cleaning (virtual/libusb-1-r2::/var/db/repos/gentoo/virtual/libusb/libusb-1-r2.ebuild)
+1648458129:  === (4 of 5) Compiling/Merging (virtual/libusb-1-r2::/var/db/repos/gentoo/virtual/libusb/libusb-1-r2.ebuild)
+1648458131:  === (4 of 5) Merging (virtual/libusb-1-r2::/var/db/repos/gentoo/virtual/libusb/libusb-1-r2.ebuild)
+1648458132:  >>> AUTOCLEAN: virtual/libusb:1
+1648458133:  === (4 of 5) Post-Build Cleaning (virtual/libusb-1-r2::/var/db/repos/gentoo/virtual/libusb/libusb-1-r2.ebuild)
+1648458133:  ::: completed emerge (4 of 5) virtual/libusb-1-r2 to /
+1648458133:  >>> emerge (5 of 5) sys-apps/usbutils-014-r1 to /
+1648458133:  === (5 of 5) Cleaning (sys-apps/usbutils-014-r1::/var/db/repos/gentoo/sys-apps/usbutils/usbutils-014-r1.ebuild)
+1648458133:  === (5 of 5) Compiling/Merging (sys-apps/usbutils-014-r1::/var/db/repos/gentoo/sys-apps/usbutils/usbutils-014-r1.ebuild)
+1648458143:  === (5 of 5) Merging (sys-apps/usbutils-014-r1::/var/db/repos/gentoo/sys-apps/usbutils/usbutils-014-r1.ebuild)
+1648458143:  >>> AUTOCLEAN: sys-apps/usbutils:0
+1648458144:  === (5 of 5) Updating world file (sys-apps/usbutils-014-r1)
+1648458144:  === (5 of 5) Post-Build Cleaning (sys-apps/usbutils-014-r1::/var/db/repos/gentoo/sys-apps/usbutils/usbutils-014-r1.ebuild)
+1648458144:  ::: completed emerge (5 of 5) sys-apps/usbutils-014-r1 to /
+1648458144:  *** Finished. Cleaning up...
+1648458144:  *** exiting successfully.
+1648458144:  *** terminating.
+1648458437: Started emerge on: Mar 28, 2022 03:07:16
+1648458437:  *** emerge --ask --regex-search-auto=y --verbose dev-vcs/git
+1648458472:  *** exiting unsuccessfully with status '130'.
+1648458472:  *** terminating.
+1648458532: Started emerge on: Mar 28, 2022 03:08:51
+1648458532:  *** emerge --ask --regex-search-auto=y --verbose dev-vcs/git
+1648458542:  >>> emerge (1 of 1) dev-vcs/git-2.34.1 to /
+1648458542:  === (1 of 1) Cleaning (dev-vcs/git-2.34.1::/var/db/repos/gentoo/dev-vcs/git/git-2.34.1.ebuild)
+1648458544:  === (1 of 1) Compiling/Merging (dev-vcs/git-2.34.1::/var/db/repos/gentoo/dev-vcs/git/git-2.34.1.ebuild)
+1648458575:  === (1 of 1) Merging (dev-vcs/git-2.34.1::/var/db/repos/gentoo/dev-vcs/git/git-2.34.1.ebuild)
+1648458577:  >>> AUTOCLEAN: dev-vcs/git:0
+1648458579:  === (1 of 1) Updating world file (dev-vcs/git-2.34.1)
+1648458579:  === (1 of 1) Post-Build Cleaning (dev-vcs/git-2.34.1::/var/db/repos/gentoo/dev-vcs/git/git-2.34.1.ebuild)
+1648458579:  ::: completed emerge (1 of 1) dev-vcs/git-2.34.1 to /
+1648458579:  *** Finished. Cleaning up...
+1648458579:  *** exiting successfully.
+1648458579:  *** terminating.

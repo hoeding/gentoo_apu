@@ -3,6 +3,7 @@
 bin/*
 sbin/*
 swapfile
+lib/firmware/
 
 # Generated or built from source
 
