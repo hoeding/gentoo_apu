@@ -25,6 +25,8 @@ dev-libs/libpcre bzip2
 dev-libs/libpcre2 bzip2
 sys-apps/file bzip2
 app-crypt/gnupg bzip2
+#clone3
+sys-libs/glibc clone3
 #cramfs
 #sys-apps/util-linux cramfs #base
 #crypt
@@ -37,6 +39,8 @@ app-crypt/gnupg bzip2
 #sys-devel/gettext cxx #base
 #dev-libs/libpcre cxx #base
 #app-crypt/gpgme cxx #base
+#exec-static-trampoline
+dev-libs/libffi exec-static-trampoline
 #extra-filters
 app-arch/xz extra-filters
 app-arch/xz-utils extra-filters
