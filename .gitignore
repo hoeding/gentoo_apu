@@ -39,7 +39,11 @@ dev/*
 sys/*
 run/*
 proc/*
+
+#  Media
 media/*
+mnt/*
+
 
 # Vendor trash
 
