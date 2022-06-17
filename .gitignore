@@ -39,6 +39,7 @@ dev/*
 sys/*
 run/*
 proc/*
+media/*
 
 # Vendor trash
 
