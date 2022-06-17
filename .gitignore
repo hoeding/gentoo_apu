@@ -15,7 +15,6 @@ usr/lib/*
 usr/lib64/*
 usr/libexec/*
 usr/x86_64-pc-linux-gnu
-usr/src/linux
 lib/*
 lib64/*
 
@@ -23,7 +22,7 @@ lib64/*
 
 var/db/repos/*
 opt/*
-usr/src*
+usr/src/*
 !usr/src/linux/
 usr/src/linux/*
 !usr/src/linux/.config
