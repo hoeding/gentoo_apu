@@ -43,6 +43,8 @@ app-arch/xz-utils extra-filters
 #filecaps
 #sys-libs/pam filecaps #base
 #net-misc/iputils filecaps #base
+#fonts
+sys-boot/grub fonts 
 #fortran
 #sys-devel/gcc fortran #base
 #ftp
@@ -224,9 +226,13 @@ sys-fs/e2fsprogs threads
 app-arch/zstd threads
 dev-lang/tcl threads
 net-libs/nghttp2 threads
-dev-vcs/git threads
+dev-vcs/git threads curl
 #tls-heartbeat
 net-libs/gnutls tls-heartbeat
+#tmpfiles
+sys-apps/systemd-utils tmpfiles
+#udev
+sys-apps/systemd-utils udev
 #unicode
 sys-apps/openrc unicode
 #urandom
@@ -251,3 +257,4 @@ sys-apps/file zlib
 sys-apps/kmod zstd
 net-misc/rsync zstd
 sys-devel/gcc zstd
+

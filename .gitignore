@@ -11,7 +11,13 @@ boot/*
 usr/*bin/*
 usr/share/*
 usr/include/*
+usr/lib/*
+usr/lib64/*
+usr/libexec/*
 usr/x86_64-pc-linux-gnu
+usr/src/linux
+lib/*
+lib64/*
 
 # Fetched content
 
@@ -38,6 +44,7 @@ proc/*
 
 tmp/*
 var/tmp/*
+var/log/*
 var/db/pkg/*
 var/cache/*
 usr/tmp/*

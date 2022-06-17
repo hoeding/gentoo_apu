@@ -1,0 +1,12 @@
+{
+	"sys-libs/e2fsprogs-libs:0": [
+		"sys-libs/e2fsprogs-libs-1.46.4-r1",
+		"143",
+		[
+			"/lib64/libss.so.2.0",
+			"/lib64/libcom_err.so.2.1",
+			"/lib64/libcom_err.so.2",
+			"/lib64/libss.so.2"
+		]
+	]
+}
