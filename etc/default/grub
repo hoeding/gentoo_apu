@@ -27,7 +27,7 @@ GRUB_DISTRIBUTOR="Gentoo"
 #
 # Boot with systemd instead of sysvinit (openrc)
 # GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd"
-GRUB_CMDLINE_LINUX="init=/lib/systemd/console=ttyS0,115200n8"
+GRUB_CMDLINE_LINUX="console=ttyS0,115200n8"
 # Append parameters to the linux kernel command line for non-recovery entries
 #GRUB_CMDLINE_LINUX_DEFAULT=""
 

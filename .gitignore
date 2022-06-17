@@ -55,6 +55,8 @@ var/tmp/*
 var/log/*
 var/db/pkg/*
 var/cache/*
+var/spool/*
+var/lib/gentoo/*
 usr/tmp/*
 stage3*
 *.swp
