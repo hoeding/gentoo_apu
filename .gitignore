@@ -36,6 +36,10 @@ etc/wireguard
 home/*
 root/*
 etc/ssl/*
+etc/ssh/*
+var/lib/dhcpcd/*
+var/lib/misc/random-seed
+
 # Not actually files
 
 dev/*

@@ -1,2 +1,5 @@
 /etc/locale.gen cbe30e840741d09fecff916084c90bd9
 /etc/default/grub 35d45a63ae403e0e4fd8772defa9d03b
+/etc/inittab a49356c517c2e156b257288fa2bd00fb
+/etc/ssh/sshd_config cbb64304875b8a0858c55cef392877b6
+/etc/udev/udev.conf bf60be80a4cc51271a1618edf5a6d66f

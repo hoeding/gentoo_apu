@@ -1,7 +1,12 @@
 app-editors/vim
 app-eselect/eselect-repository
+app-misc/neofetch
 app-portage/gentoolkit
+app-text/tree
 dev-vcs/git
+net-fs/sshfs
+net-misc/dhcpcd
+sys-apps/dmidecode
 sys-apps/pciutils
 sys-apps/usbutils
 sys-boot/grub

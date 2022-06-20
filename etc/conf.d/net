@@ -1,0 +1,3 @@
+config_enp4s0="dhcp"
+config enp3s0="dhcp"
+config_enp2s0="dhcp"
