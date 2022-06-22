@@ -6,11 +6,16 @@ app-text/tree
 dev-vcs/git
 net-fs/sshfs
 net-misc/dhcpcd
+net-wireless/hostapd
+net-wireless/iw
 sys-apps/dmidecode
+sys-apps/flashrom
+sys-apps/lm-sensors
 sys-apps/pciutils
 sys-apps/usbutils
 sys-boot/grub
 sys-kernel/genkernel
 sys-kernel/gentoo-kernel-bin
+sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-libs/timezone-data

@@ -3,3 +3,5 @@
 /etc/inittab a49356c517c2e156b257288fa2bd00fb
 /etc/ssh/sshd_config cbb64304875b8a0858c55cef392877b6
 /etc/udev/udev.conf bf60be80a4cc51271a1618edf5a6d66f
+/etc/hostapd/hostapd.conf 900d34a0a21d3685836ff93e5361c8e2
+/etc/conf.d/hostapd 44e1d599bbbbabcb53ce925ee037e42b

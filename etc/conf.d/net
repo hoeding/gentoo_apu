@@ -1,3 +1,5 @@
 config_enp4s0="dhcp"
 config enp3s0="dhcp"
 config_enp2s0="dhcp"
+config_wlp1s0="null"
+modules_wlp1s0="!iwconfig !wpa_supplicant !iw"

@@ -29,6 +29,8 @@ app-crypt/gnupg bzip2
 sys-libs/glibc clone3
 #cramfs
 #sys-apps/util-linux cramfs #base
+#crda
+net-wireless/hostapd crda
 #crypt
 #dev-libs/libxslt crypt #base
 #app-editors/vim crypt #base
@@ -77,6 +79,8 @@ net-libs/gnutls idn
 sys-kernel/linux-firmware initramfs
 #installkernel
 sys-apps/debianutils installkernel
+#internal
+sys-apps/flashrom internal
 #iptables
 #sys-apps/iproute2 iptables
 #jit
