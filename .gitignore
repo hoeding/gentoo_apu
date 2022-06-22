@@ -23,7 +23,7 @@ lib64/*
 var/db/repos/*
 opt/*
 usr/src/*
-!usr/src/linux*
+!usr/src/linux/*
 usr/src/linux*/*
 !usr/src/linux*/.config
 # Secrets
