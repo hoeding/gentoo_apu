@@ -8,6 +8,9 @@ lib/firmware/
 # Generated or built from source
 
 boot/*
+!boot/grub/
+boot/grub/*
+boot/grub/grub.cfg
 usr/*bin/*
 usr/share/*
 usr/include/*
