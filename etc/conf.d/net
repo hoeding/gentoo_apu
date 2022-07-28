@@ -5,7 +5,7 @@ config_enp2s0="172.16.1.42/24"
 routes_enp2s0="default via 172.16.1.254"
 dns_servers_enp2s0="172.16.1.42 172.16.1.254"
 
-## fast bridge ##
+## 2.4ghz bridge ##
 ## Hardware is Intel AX200 2x2ax
 
 config_intelax="null"
@@ -17,8 +17,9 @@ mode_enp3s0="master"
 bridge_bridgeintel="enp3s0 intelax"
 bridge_forward_delay_bridgeintel=0
 bridge_hello_time_bridgeintel=1000
+config_bridgeintel="null"
 
-## wide bridge ##
+## 5ghz bridge ##
 ## Hardware is Qualcomm QCA9984 4x4ac
 config_atherosac="null"
 mode_atherosac="master"
@@ -29,3 +30,4 @@ mode_enp4s0="master"
 bridge_bridgeatheros="enp4s0 atherosac"
 bridge_forward_delay_bridgeatheros=0
 bridge_hello_time_bridgeatheros=0
+config_bridgeatheros="null"
