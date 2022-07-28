@@ -5,3 +5,7 @@
 /etc/udev/udev.conf bf60be80a4cc51271a1618edf5a6d66f
 /etc/hostapd/hostapd.conf 900d34a0a21d3685836ff93e5361c8e2
 /etc/conf.d/hostapd 44e1d599bbbbabcb53ce925ee037e42b
+/etc/rc.conf a36cf36ef62963f3ac40e35e412e2f8e
+/etc/conf.d/modules 2910e8ad1994c3a1a2435904da60f178
+/etc/bind/named.conf e11b34ebb219639988a77c4424bd4916
+/etc/conf.d/wpa_supplicant 0ee6f3a41ea8376ff43d5f057c4c5404

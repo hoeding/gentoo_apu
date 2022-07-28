@@ -1,9 +1,9 @@
 # Space separated List of interfaces which needs to be started before
 # hostapd
-INTERFACES="wlan0"
-
+# INTERFACES="wlp1s0 wlp5s0"
+#INTERFACES="intelax atherosac"
 # Space separated list of configuration files
-CONFIGS="/etc/hostapd/hostapd.conf"
-
+#CONFIGS="/etc/hostapd/hostapd.conf" 
+CONFIGS="/root/hostapd/hostapd_intelax.conf /root/hostapd/hostapd_atherosac.conf"
 # Extra options to pass to hostapd, see hostapd(8)
 OPTIONS=""

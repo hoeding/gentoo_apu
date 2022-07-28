@@ -8,6 +8,8 @@
 #app-editors/vim-core acl #base
 #sys-devel/gettext acl #base
 #sys-fs/udev acl #base
+#ap
+net-wireless/wpa_supplicant ap
 #arp
 sys-apps/net-tools arp
 #arping
@@ -25,12 +27,16 @@ dev-libs/libpcre bzip2
 dev-libs/libpcre2 bzip2
 sys-apps/file bzip2
 app-crypt/gnupg bzip2
+#client
+net-wireless/iwd client
 #clone3
 sys-libs/glibc clone3
 #cramfs
 #sys-apps/util-linux cramfs #base
 #crda
 net-wireless/hostapd crda
+net-wireless/wpa_supplicant crda
+net-wireless/iwd crda
 #crypt
 #dev-libs/libxslt crypt #base
 #app-editors/vim crypt #base
@@ -46,9 +52,13 @@ dev-libs/libffi exec-static-trampoline
 #extra-filters
 app-arch/xz extra-filters
 app-arch/xz-utils extra-filters
+#fasteap
+net-wireless/wpa_supplicant fasteap
 #filecaps
 #sys-libs/pam filecaps #base
 #net-misc/iputils filecaps #base
+#fils
+net-wireless/wpa_supplicant fils
 #fonts
 sys-boot/grub fonts 
 #fortran
@@ -63,12 +73,16 @@ sys-apps/man-db gdbm
 sys-devel/binutils gold
 #gpg
 app-portage/gemato gpg
+#graphite
+sys-devel/gcc graphite
 #hardlink
 sys-apps/util-linux hardlink
 #hostname
 sys-apps/net-tools hostname
 #http2
 net-misc/curl http2
+#hs2-0
+net-wireless/wpa_supplicant hs2-0
 #iconv
 net-misc/rsync iconv
 #idn
@@ -94,16 +108,24 @@ sys-fs/udev kmod
 sys-apps/util-linux logger
 #lua_single_target
 app-editors/vim lua_single_target_lua5-1
+#lto
+sys-devel/gcc lto
 #lzma
 #sys-apps/kmod lzma #base
 #manpager
 #sys-apps/man-db manpager #base
+#mbo
+net-wireless/wpa_supplicant mbo
+#monitor
+net-wireless/iwd monitor
 #multiarch
 sys-libs/glibc multiarch
 #native-extensions
 sys-apps/portage native-extensions
 #net
 #app-shells/bash net #base
+#netlink
+net-wireless/hostapd netlink
 #ncurses
 sys-apps/openrc ncurses
 app-crypt/pinentry ncurses
@@ -119,13 +141,15 @@ sys-devel/gcc nptl
 #nullok
 sys-auth/pambase nullok
 #openmp
-#sys-devel/gcc openmp #base
+sys-devel/gcc openmp #base
 #sys-devel/gettext openmp #base
 #app-portage/portage-utils openmp #base
 #app-crypt/libb2 openmp #base
 #openssl
 net-libs/gnutls openssl
 net-misc/curl openssl
+#p2p
+net-wireless/wpa_supplicant p2p
 #pam
 net-misc/openssh pam
 sys-apps/openrc pam
@@ -140,6 +164,8 @@ sys-apps/grep pcre
 sys-apps/less pcre
 dev-libs/libpcre2 pcre16
 net-misc/wget pcre
+#pgo
+sys-devel/gcc
 #pie
 net-misc/openssh pie
 sys-libs/glibc pie
@@ -147,6 +173,8 @@ sys-libs/glibc pie
 sys-devel/binutils plugins
 #pop3
 #net-misc/curl pop3 base
+#privsep
+net-wireless/wpa_supplicant privsep
 #progress-meter
 #net-misc/curl progress-meter #base
 #python
@@ -188,6 +216,7 @@ dev-libs/libpcre2 readline
 dev-libs/libpcre readline
 sys-libs/gdbm readline
 app-crypt/gnupg readline
+net-wireless/wpa_supplicant readline
 #redistributable
 sys-kernel/linux-firmware redistributable
 #rsync-verify
@@ -213,8 +242,11 @@ dev-lang/python ssl
 net-misc/openssh ssl
 net-misc/curl ssl curl_ssl_openssl
 app-crypt/gnupg ssl
+#standalone
+net-wireless/iwd standalone
 #net-misc/iputils ssl #base
 #sqlite
+net-wireless/hostapd sqlite
 #dev-lang/python sqlite
 #ssp
 sys-devel/gcc ssp
@@ -227,6 +259,8 @@ sys-apps/util-linux su
 #sys-apps/util-linux sudo
 #suid
 sys-apps/util-linux suid
+#tdls
+net-wireless/wpa_supplicant tdls
 #tftp
 #net-misc/curl tftp #base
 #threads
@@ -241,10 +275,15 @@ net-libs/gnutls tls-heartbeat
 sys-apps/systemd-utils tmpfiles
 #udev
 sys-apps/systemd-utils udev
+sys-apps/util-linux udev
+sys-apps/pciutils udev
+net-misc/dhcpcd udev
 #unicode
 sys-apps/openrc unicode
 #urandom
 #dev-libs/libsodium urandom #obsoleted by kernel ~5.17
+#wps
+net-wireless/wpa_supplicant wps
 #xattr
 sys-devel/patch xattr
 app-arch/tar xattr

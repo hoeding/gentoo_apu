@@ -36,6 +36,10 @@ etc/group*
 etc/*shadow*
 etc/*net*
 etc/wireguard
+etc/bind/
+var/bind/
+etc/wpa_supplicant
+var/lib/iwd
 home/*
 root/*
 etc/ssl/*

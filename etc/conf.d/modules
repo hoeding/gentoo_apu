@@ -6,7 +6,7 @@
 #modules_2_6_23="tun ieee1394"
 #modules_2_6="tun"
 #modules_2="ipv6"
-#modules="ohci1394"
+modules="iwlwifi ath10k_pci"
 
 # Linux users can give the modules some arguments if needed, per version
 # if necessary.

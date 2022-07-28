@@ -1,7 +1,31 @@
+
+## Host networking ##
+
+config_enp2s0="172.16.1.42/24"
+routes_enp2s0="default via 172.16.1.254"
+dns_servers_enp2s0="172.16.1.42 172.16.1.254"
+
+## fast bridge ##
+## Hardware is Intel AX200 2x2ax
+
+config_intelax="null"
+mode_intelax="master"
+modules_intelax="!iwconfig !wpa_supplicant !iw"
+config_enp3s0="null"
+mode_enp3s0="master"
+
+bridge_bridgeintel="enp3s0 intelax"
+bridge_forward_delay_bridgeintel=0
+bridge_hello_time_bridgeintel=1000
+
+## wide bridge ##
+## Hardware is Qualcomm QCA9984 4x4ac
+config_atherosac="null"
+mode_atherosac="master"
+modules_atherosac="!iwconfig !wpa_supplicant !iw"
 config_enp4s0="null"
-config enp3s0="172.16.1.40/24"
-routes_enp3s0="default via 172.16.1.254"
-dns_servers_eth0="172.16.1.254"
-config_enp2s0="null"
-config_wlp1s0="null"
-modules_wlp1s0="!iwconfig !wpa_supplicant !iw"
+mode_enp4s0="master"
+
+bridge_bridgeatheros="enp4s0 atherosac"
+bridge_forward_delay_bridgeatheros=0
+bridge_hello_time_bridgeatheros=0

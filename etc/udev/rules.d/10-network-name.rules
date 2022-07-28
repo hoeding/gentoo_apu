@@ -1,0 +1,2 @@
+SUBSYSTEM=="net", ACTION=="add", ATTR{address}=="d0:ab:d5:1a:57:f7", NAME="intelax"
+SUBSYSTEM=="net", ACTION=="add", ATTR{address}=="04:f0:21:55:c5:3d", NAME="atherosac"

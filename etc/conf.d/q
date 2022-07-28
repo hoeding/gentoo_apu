@@ -1,0 +1,9 @@
+# Space separated List of interfaces which needs to be started before
+# hostapd
+# INTERFACES="wlp1s0 wlp5s0"
+INTERFACES="wlan0"
+# Space separated list of configuration files
+#CONFIGS="/etc/hostapd/hostapd.conf" 
+CONFIGS="/root/hostapd/hostapd.conf"
+# Extra options to pass to hostapd, see hostapd(8)
+OPTIONS=""
