@@ -23,7 +23,8 @@ lib64/*
 etc/ld.so.cache
 # Fetched content
 
-var/db/repos/*
+#var/db/repos/*
+var/db/
 opt/*
 usr/src/*
 !usr/src/linux/*
@@ -84,3 +85,7 @@ etc/xml/
 etc/vim/
 etc/sgml/
 var/lib/mlocate
+usr/local
+etc/bash
+etc/eclean
+etc/libnl
