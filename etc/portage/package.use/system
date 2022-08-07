@@ -62,7 +62,7 @@ net-wireless/wpa_supplicant fils
 #fonts
 sys-boot/grub fonts 
 #fortran
-#sys-devel/gcc fortran #base
+sys-devel/gcc fortran #base
 #ftp
 #net-misc/curl ftp #base
 #gdbm
@@ -165,7 +165,7 @@ sys-apps/less pcre
 dev-libs/libpcre2 pcre16
 net-misc/wget pcre
 #pgo
-sys-devel/gcc
+sys-devel/gcc pgo
 #pie
 net-misc/openssh pie
 sys-libs/glibc pie
@@ -249,7 +249,7 @@ net-wireless/iwd standalone
 net-wireless/hostapd sqlite
 #dev-lang/python sqlite
 #ssp
-sys-devel/gcc ssp
+#sys-devel/gcc ssp
 sys-libs/glibc ssp
 #standalone
 sys-apps/texinfo standalone

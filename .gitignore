@@ -20,7 +20,7 @@ usr/libexec/*
 usr/x86_64-pc-linux-gnu
 lib/*
 lib64/*
-
+etc/ld.so.cache
 # Fetched content
 
 var/db/repos/*
@@ -71,3 +71,16 @@ var/lib/gentoo/*
 usr/tmp/*
 stage3*
 *.swp
+
+# Misc noise
+
+etc/ca-certificates.conf
+etc/init.d/*
+!etc/init.d/net.*
+etc/init.d/net.lo
+etc/dbus-1/
+var/lib/dbus
+etc/xml/
+etc/vim/
+etc/sgml/
+var/lib/mlocate

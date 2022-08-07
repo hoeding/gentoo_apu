@@ -29,5 +29,7 @@ mode_enp4s0="master"
 
 bridge_bridgeatheros="enp4s0 atherosac"
 bridge_forward_delay_bridgeatheros=0
-bridge_hello_time_bridgeatheros=0
-config_bridgeatheros="null"
+bridge_hello_time_bridgeatheros=1000
+config_bridgeatheros="172.16.1.43/24"
+routes_bridgeatheros="default via 172.16.1.254"
+dns_servers_bridgeatheros="172.16.1.43 172.16.1.254"

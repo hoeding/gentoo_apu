@@ -2,6 +2,7 @@ app-admin/syslog-ng
 app-editors/vim
 app-eselect/eselect-repository
 app-misc/neofetch
+app-portage/cpuid2cpuflags
 app-portage/gentoolkit
 app-text/tree
 dev-libs/icu
@@ -11,11 +12,10 @@ net-fs/sshfs
 net-misc/dhcpcd
 net-wireless/hostapd
 net-wireless/iw
-net-wireless/iwd
-net-wireless/wpa_supplicant
 sys-apps/dmidecode
 sys-apps/flashrom
 sys-apps/lm-sensors
+sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/usbutils
 sys-boot/grub
